@@ -20,6 +20,7 @@ export class LeadDataProcessorService {
         },
         setEmptyANI: (rows) => this.setEmptyANI(rows),
         dropPolicyHolders: (rows) => this.dropPolicyHolders(rows),
+        getRidOfNonNumberAni: (rows) => this.getRidOfNonNumberAni(rows),
         deduplicateANI: (rows, opts) => this.deduplicateANI(rows, opts),
         handleSaveAllLeads: (rows, opts) => this.handleSaveAllLeads(rows, opts),
         dropDispositionDroppedCall: (rows) => this.dropDispositionDroppedCall(rows)
@@ -123,6 +124,10 @@ export class LeadDataProcessorService {
         return leads.filter((lead) => !((lead.rowData.disposition.value ?? '').trim().toLowerCase() === 'dropped call (sl)'))
     }
 
+    private getRidOfNonNumberAni(leads: AnyCallCenterLead[]): AnyCallCenterLead[]{
+        return leads.filter((lead)=> !Number.isNaN(Number(lead.rowData.ani.value)))
+    }
+
     // checks for duplicate ANI leads and chooses the one with most information present or many if they have differing information
     private deduplicateANI(
         leads: AnyCallCenterLead[],
@@ -143,7 +148,7 @@ export class LeadDataProcessorService {
             }
             return value[0]
             // return false
-        }).flat()
+        }).flat().sort((a,b) => a.rowIndex - b.rowIndex)
     }
 
     // dos the logic for the save all leads sourcename

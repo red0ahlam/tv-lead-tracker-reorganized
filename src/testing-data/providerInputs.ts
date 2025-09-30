@@ -514,6 +514,7 @@ const callCenter1Input = {
     { order: 2, name: "extractTvCampaigns", options: { columnKey: "sourcename" } },
     { order: 3, name: "setEmptyANI" },
     { order: 4, name: "dropPolicyHolders" },
+    { order: 5, name: "getRidOfNonNumberAni" },
     { order: 5, name: "deduplicateANI", options: {aniExcludedKeys: ['session id', 'call dts', 'lead type', 'disposition', 'Comments', 'CS Comments', 'NameOfAgent', 'ani'], campaignKey: 'SourceName'}}
   ]
 }
@@ -572,7 +573,8 @@ const callCenter2Input = {
     { order: 3, name: "extractTvCampaigns", options: { columnKey: "sourcename" } },
     { order: 4, name: "setEmptyANI" },
     { order: 5, name: "dropPolicyHolders" },
-    { order: 6, name: "deduplicateANI", options: {aniExcludedKeys: ['call dts', 'Comments', 'Appointment', 'NameOfAgent', 'ani'], campaignKey: 'SourceName'}}
+    { order: 6, name: "getRidOfNonNumberAni" },
+    { order: 7, name: "deduplicateANI", options: {aniExcludedKeys: ['call dts', 'Comments', 'Appointment', 'NameOfAgent', 'ani'], campaignKey: 'SourceName'}}
   ]
 }
 
