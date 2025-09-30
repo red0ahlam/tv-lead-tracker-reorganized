@@ -1,0 +1,6162 @@
+[
+  {
+    "rowIndex": 3,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 5,
+        "hour": 16
+      },
+      "SourceName": "National 111",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7139844681
+    }
+  },
+  {
+    "rowIndex": 5,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 5,
+        "hour": 22
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7044601318
+    }
+  },
+  {
+    "rowIndex": 6,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 5,
+        "hour": 22
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3076990201
+    }
+  },
+  {
+    "rowIndex": 7,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 5,
+        "hour": 23
+      },
+      "SourceName": "Local 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4047312323
+    }
+  },
+  {
+    "rowIndex": 8,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 5,
+        "hour": 23
+      },
+      "SourceName": "Local 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4706429735
+    }
+  },
+  {
+    "rowIndex": 9,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 0
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD Transfer",
+      "Address1": "5465 S FM 2869",
+      "Address2": null,
+      "City": "HAWKINS",
+      "State": "TX",
+      "ZIP": 75765,
+      "UpdatePhone": 9036389617,
+      "ANI": 9036389617
+    }
+  },
+  {
+    "rowIndex": 10,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 0
+      },
+      "SourceName": "National 30",
+      "Disposition": "LEAD Transfer",
+      "Address1": "207 BLACK CYPRESS ST",
+      "Address2": null,
+      "City": "JEFFERSON",
+      "State": "TX",
+      "ZIP": 75657,
+      "UpdatePhone": 4302589340,
+      "ANI": 4302589340
+    }
+  },
+  {
+    "rowIndex": 11,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 0
+      },
+      "SourceName": "National 26",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8136505911
+    }
+  },
+  {
+    "rowIndex": 12,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 0
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD Transfer",
+      "Address1": "412 MELVILLE RD",
+      "Address2": null,
+      "City": "HAMPTON",
+      "State": "VA",
+      "ZIP": 23661,
+      "UpdatePhone": 7573038568,
+      "ANI": 7573038568
+    }
+  },
+  {
+    "rowIndex": 13,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 0
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2058346322
+    }
+  },
+  {
+    "rowIndex": 15,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 0
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "PO BOX 22",
+      "Address2": null,
+      "City": "MARKSVILLE",
+      "State": "LA",
+      "ZIP": 71351,
+      "UpdatePhone": 3183089882,
+      "ANI": 3183089882
+    }
+  },
+  {
+    "rowIndex": 17,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 1
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "CORPUS CHRISTI",
+      "State": "TX",
+      "ZIP": 78408,
+      "UpdatePhone": 3619603484,
+      "ANI": 3619603484
+    }
+  },
+  {
+    "rowIndex": 18,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 1
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "STOCKTON",
+      "State": "CA",
+      "ZIP": 95205,
+      "UpdatePhone": 2099419503,
+      "ANI": 2099419503
+    }
+  },
+  {
+    "rowIndex": 19,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 1
+      },
+      "SourceName": "National 34",
+      "Disposition": "LEAD Transfer",
+      "Address1": null,
+      "Address2": null,
+      "City": "MARION",
+      "State": "OH",
+      "ZIP": 43302,
+      "UpdatePhone": 6145789513,
+      "ANI": 6145789513
+    }
+  },
+  {
+    "rowIndex": 20,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 1
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4058435554
+    }
+  },
+  {
+    "rowIndex": 21,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 1
+      },
+      "SourceName": "National 30",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8438678144
+    }
+  },
+  {
+    "rowIndex": 22,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 1
+      },
+      "SourceName": "National 30",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8438678144
+    }
+  },
+  {
+    "rowIndex": 23,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 2
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "7525 83RD ST N APT 103",
+      "Address2": null,
+      "City": "SEMINOLE",
+      "State": "FL",
+      "ZIP": 33777,
+      "UpdatePhone": 7275399784,
+      "ANI": 7275399784
+    }
+  },
+  {
+    "rowIndex": 24,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 2
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "FORT WORTH",
+      "State": "TX",
+      "ZIP": 76134,
+      "UpdatePhone": 8178192407,
+      "ANI": 8178192407
+    }
+  },
+  {
+    "rowIndex": 25,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 2
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9012301283
+    }
+  },
+  {
+    "rowIndex": 26,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 2
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "WATERLOO",
+      "State": "IA",
+      "ZIP": 50703,
+      "UpdatePhone": 3198300138,
+      "ANI": 3198300138
+    }
+  },
+  {
+    "rowIndex": 27,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 2
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "ALPENA",
+      "State": "AR",
+      "ZIP": 72611,
+      "UpdatePhone": 8705771581,
+      "ANI": 8705771581
+    }
+  },
+  {
+    "rowIndex": 28,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 2
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "13812 WALKER RD",
+      "Address2": null,
+      "City": "MCLOUD",
+      "State": "OK",
+      "ZIP": 74851,
+      "UpdatePhone": 4052011228,
+      "ANI": 4052011228
+    }
+  },
+  {
+    "rowIndex": 29,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 3
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "PENSACOLA",
+      "State": "FL",
+      "ZIP": 32526,
+      "UpdatePhone": 8502812217,
+      "ANI": 8502812217
+    }
+  },
+  {
+    "rowIndex": 31,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 3
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "29 DEER LANE ",
+      "Address2": null,
+      "City": "BREMO BLUFF",
+      "State": "VA",
+      "ZIP": 23022,
+      "UpdatePhone": 4344842959,
+      "ANI": 4344842959
+    }
+  },
+  {
+    "rowIndex": 32,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 3
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9015654557
+    }
+  },
+  {
+    "rowIndex": 33,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 3
+      },
+      "SourceName": "National 60",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4142502690
+    }
+  },
+  {
+    "rowIndex": 34,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 3
+      },
+      "SourceName": "National 26",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5044350239
+    }
+  },
+  {
+    "rowIndex": 35,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 3
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4044070553
+    }
+  },
+  {
+    "rowIndex": 36,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 3
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9187746690
+    }
+  },
+  {
+    "rowIndex": 37,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 4
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2566409678
+    }
+  },
+  {
+    "rowIndex": 38,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 4
+      },
+      "SourceName": "National 82",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3372989925
+    }
+  },
+  {
+    "rowIndex": 39,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 4
+      },
+      "SourceName": "National 82",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2082908458
+    }
+  },
+  {
+    "rowIndex": 41,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 5
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "SHREVEPORT",
+      "State": "LA",
+      "ZIP": 71101,
+      "UpdatePhone": 3185323758,
+      "ANI": 3185323758
+    }
+  },
+  {
+    "rowIndex": 42,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 5
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "HAMPTON",
+      "State": "VA",
+      "ZIP": 23669,
+      "UpdatePhone": 7577513526,
+      "ANI": 7577513526
+    }
+  },
+  {
+    "rowIndex": 43,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 5
+      },
+      "SourceName": "National 34",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3365889945
+    }
+  },
+  {
+    "rowIndex": 44,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 6
+      },
+      "SourceName": "Local 21",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "ROANOKE",
+      "State": "VA",
+      "ZIP": 24017,
+      "UpdatePhone": 5409155303,
+      "ANI": 5409155303
+    }
+  },
+  {
+    "rowIndex": 45,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 6
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9109955552
+    }
+  },
+  {
+    "rowIndex": 47,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 7
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 6172242966
+    }
+  },
+  {
+    "rowIndex": 48,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 7
+      },
+      "SourceName": "National 34",
+      "Disposition": "LEAD",
+      "Address1": "PO BOX 1235 ",
+      "Address2": null,
+      "City": "HIGH POINT",
+      "State": "NC",
+      "ZIP": 27261,
+      "UpdatePhone": 3364935258,
+      "ANI": 3364935258
+    }
+  },
+  {
+    "rowIndex": 49,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 7
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3092351368
+    }
+  },
+  {
+    "rowIndex": 50,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 7
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5133768587
+    }
+  },
+  {
+    "rowIndex": 53,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "15545 HWY 6 RV PARK #60",
+      "Address2": null,
+      "City": "ROSHARON",
+      "State": "TX",
+      "ZIP": 77583,
+      "UpdatePhone": 8326517977,
+      "ANI": 8326517977
+    }
+  },
+  {
+    "rowIndex": 54,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "18900 ROBERSON",
+      "Address2": null,
+      "City": "DETROIT",
+      "State": "MI",
+      "ZIP": 48235,
+      "UpdatePhone": 3134103886,
+      "ANI": 3134103886
+    }
+  },
+  {
+    "rowIndex": 55,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "960 KNOX CT",
+      "Address2": null,
+      "City": "DENVER",
+      "State": "CO",
+      "ZIP": 80204,
+      "UpdatePhone": 7205175545,
+      "ANI": 7205175545
+    }
+  },
+  {
+    "rowIndex": 56,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "701 CODY RD",
+      "Address2": null,
+      "City": "MOBILE",
+      "State": "AL",
+      "ZIP": 36608,
+      "UpdatePhone": 2515861211,
+      "ANI": 2515861211
+    }
+  },
+  {
+    "rowIndex": 57,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9042480026
+    }
+  },
+  {
+    "rowIndex": 58,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "3100 RUE PARC FONTAINE APT 2402",
+      "Address2": null,
+      "City": "NEW ORLEANS",
+      "State": "LA",
+      "ZIP": 70131,
+      "UpdatePhone": 9854636647,
+      "ANI": 9854636647
+    }
+  },
+  {
+    "rowIndex": 59,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8435400444
+    }
+  },
+  {
+    "rowIndex": 60,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "114 DAVID",
+      "Address2": null,
+      "City": "MEMPHIS",
+      "State": "TN",
+      "ZIP": 38114,
+      "UpdatePhone": 9012203680,
+      "ANI": 9012203680
+    }
+  },
+  {
+    "rowIndex": 61,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2564378021
+    }
+  },
+  {
+    "rowIndex": 62,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "Ring230",
+      "Disposition": "LEAD",
+      "Address1": "3179 HWY 32 E",
+      "Address2": null,
+      "City": "DOUGLAS",
+      "State": "GA",
+      "ZIP": 31533,
+      "UpdatePhone": 9123819377,
+      "ANI": 9123819377
+    }
+  },
+  {
+    "rowIndex": 63,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "National 34",
+      "Disposition": "LEAD",
+      "Address1": "401 NORTH MAIN ST. APT 1A",
+      "Address2": null,
+      "City": "MOCKSVILLE",
+      "State": "NC",
+      "ZIP": 27028,
+      "UpdatePhone": null,
+      "ANI": 3369407053
+    }
+  },
+  {
+    "rowIndex": 64,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 8
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9372156040
+    }
+  },
+  {
+    "rowIndex": 65,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "National 61",
+      "Disposition": "LEAD",
+      "Address1": "1207 ALMOND ST APT 508",
+      "Address2": null,
+      "City": "SYRACUSE",
+      "State": "NY",
+      "ZIP": 13210,
+      "UpdatePhone": 3153542234,
+      "ANI": 3153542234
+    }
+  },
+  {
+    "rowIndex": 67,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "2110 CIANE CREEK LANE",
+      "Address2": null,
+      "City": "CHARLOTTE",
+      "State": "NC",
+      "ZIP": 28216,
+      "UpdatePhone": 9808006376,
+      "ANI": 7043654202
+    }
+  },
+  {
+    "rowIndex": 69,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8505176563
+    }
+  },
+  {
+    "rowIndex": 70,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "1030 CORLAND DR",
+      "Address2": null,
+      "City": "MADISON",
+      "State": "TN",
+      "ZIP": 37115,
+      "UpdatePhone": 6292562216,
+      "ANI": 6292562216
+    }
+  },
+  {
+    "rowIndex": 72,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "HOUSTON",
+      "State": "TX",
+      "ZIP": 77045,
+      "UpdatePhone": 8327781795,
+      "ANI": 8327781795
+    }
+  },
+  {
+    "rowIndex": 73,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "LEAD",
+      "Address1": "13533 TURNER AVE",
+      "Address2": null,
+      "City": "ROBBINS",
+      "State": "IL",
+      "ZIP": 60472,
+      "UpdatePhone": 3124876919,
+      "ANI": 3124876919
+    }
+  },
+  {
+    "rowIndex": 74,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "RIVES JUNCTION",
+      "State": "MI",
+      "ZIP": 49277,
+      "UpdatePhone": 5179140662,
+      "ANI": 5179140662
+    }
+  },
+  {
+    "rowIndex": 76,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9102413237
+    }
+  },
+  {
+    "rowIndex": 79,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 9
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3309882316
+    }
+  },
+  {
+    "rowIndex": 80,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2169068454
+    }
+  },
+  {
+    "rowIndex": 81,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9102413237
+    }
+  },
+  {
+    "rowIndex": 83,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "1733 US HWY 601 SOUTH",
+      "Address2": null,
+      "City": "MOCKSVILLE",
+      "State": "NC",
+      "ZIP": 27028,
+      "UpdatePhone": 3367513337,
+      "ANI": 3367513337
+    }
+  },
+  {
+    "rowIndex": 84,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "Local 15",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 6789237317
+    }
+  },
+  {
+    "rowIndex": 85,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "Local 15",
+      "Disposition": "LEAD",
+      "Address1": "296 ROY HUIE RD APT 13D",
+      "Address2": null,
+      "City": "RIVERDALE",
+      "State": "GA",
+      "ZIP": 30274,
+      "UpdatePhone": 4045129467,
+      "ANI": 4045129467
+    }
+  },
+  {
+    "rowIndex": 86,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "National 32",
+      "Disposition": "LEAD",
+      "Address1": "PO BOX 927",
+      "Address2": null,
+      "City": "NEWPORT",
+      "State": "TN",
+      "ZIP": 37822,
+      "UpdatePhone": 4236087641,
+      "ANI": 4236087641
+    }
+  },
+  {
+    "rowIndex": 87,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": "95   BROAD  STREET #   304",
+      "Address2": null,
+      "City": "WEYMOUTH",
+      "State": "MA",
+      "ZIP": 2188,
+      "UpdatePhone": 7816604255,
+      "ANI": 7816604255
+    }
+  },
+  {
+    "rowIndex": 88,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2513916076
+    }
+  },
+  {
+    "rowIndex": 89,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "550   N  DUKE    AVE #   B   1",
+      "Address2": null,
+      "City": "SPRINGFIELD",
+      "State": "MO",
+      "ZIP": 65802,
+      "UpdatePhone": 4172241126,
+      "ANI": 4172241126
+    }
+  },
+  {
+    "rowIndex": 90,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 10
+      },
+      "SourceName": "National 61",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9852909830
+    }
+  },
+  {
+    "rowIndex": 92,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "National 31",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7705480679
+    }
+  },
+  {
+    "rowIndex": 93,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "PO BOX 636",
+      "Address2": null,
+      "City": "BANNING",
+      "State": "CA",
+      "ZIP": 92220,
+      "UpdatePhone": 9517469025,
+      "ANI": 9518494241
+    }
+  },
+  {
+    "rowIndex": 94,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9546648288
+    }
+  },
+  {
+    "rowIndex": 95,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "Local 18",
+      "Disposition": "LEAD",
+      "Address1": "7136 FONTANA DR",
+      "Address2": null,
+      "City": "COLUMBIA",
+      "State": "SC",
+      "ZIP": 29209,
+      "UpdatePhone": 4044145239,
+      "ANI": 4044145239
+    }
+  },
+  {
+    "rowIndex": 96,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "Local 4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7068537012
+    }
+  },
+  {
+    "rowIndex": 98,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "National 32",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "CLEVELAND",
+      "State": "OH",
+      "ZIP": 44105,
+      "UpdatePhone": 2162034961,
+      "ANI": 2162034961
+    }
+  },
+  {
+    "rowIndex": 99,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "245 TIBBS LN",
+      "Address2": null,
+      "City": "HACKBERRY",
+      "State": "LA",
+      "ZIP": 70645,
+      "UpdatePhone": 3375290213,
+      "ANI": 3375290213
+    }
+  },
+  {
+    "rowIndex": 101,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "29483 WALNUT STREET ",
+      "Address2": null,
+      "City": "CIRCLEVILLE",
+      "State": "OH",
+      "ZIP": 43113,
+      "UpdatePhone": 4408298788,
+      "ANI": 4408298788
+    }
+  },
+  {
+    "rowIndex": 102,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "CLEVELAND",
+      "State": "OH",
+      "ZIP": 44104,
+      "UpdatePhone": 2163913523,
+      "ANI": 2163913523
+    }
+  },
+  {
+    "rowIndex": 103,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "National 34",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "SHIRLEY",
+      "State": "AR",
+      "ZIP": 72153,
+      "UpdatePhone": 8706152429,
+      "ANI": 8706152429
+    }
+  },
+  {
+    "rowIndex": 104,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7062663388
+    }
+  },
+  {
+    "rowIndex": 105,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 11
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5045107309
+    }
+  },
+  {
+    "rowIndex": 106,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "Local 4",
+      "Disposition": "LEAD",
+      "Address1": "2201 48TH ST E  APT 1105",
+      "Address2": null,
+      "City": "TUSCALOOSA",
+      "State": "AL",
+      "ZIP": 35405,
+      "UpdatePhone": 6592153269,
+      "ANI": 6592153269
+    }
+  },
+  {
+    "rowIndex": 107,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "National 34",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3618001751
+    }
+  },
+  {
+    "rowIndex": 108,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "National 34",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3619296083
+    }
+  },
+  {
+    "rowIndex": 110,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3134103886
+    }
+  },
+  {
+    "rowIndex": 111,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "HULL",
+      "State": "IA",
+      "ZIP": 51239,
+      "UpdatePhone": 7125791024,
+      "ANI": 7125781024
+    }
+  },
+  {
+    "rowIndex": 112,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "6658 VILLARRELL DRIVE",
+      "Address2": null,
+      "City": "MISSOURI CITY",
+      "State": "TX",
+      "ZIP": 77489,
+      "UpdatePhone": 3462883851,
+      "ANI": 3462883851
+    }
+  },
+  {
+    "rowIndex": 113,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5205601178
+    }
+  },
+  {
+    "rowIndex": 114,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "10043 RONNIE RD",
+      "Address2": null,
+      "City": "CINCINNATI",
+      "State": "OH",
+      "ZIP": 45215,
+      "UpdatePhone": 5134901282,
+      "ANI": 5134901282
+    }
+  },
+  {
+    "rowIndex": 115,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "750 N HAGADORN CT",
+      "Address2": null,
+      "City": "SOUTH LYON",
+      "State": "MI",
+      "ZIP": 48178,
+      "UpdatePhone": 2489216457,
+      "ANI": 2489216457
+    }
+  },
+  {
+    "rowIndex": 116,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "CLEVELAND",
+      "State": "OH",
+      "ZIP": 44103,
+      "UpdatePhone": 4404299721,
+      "ANI": 4404299721
+    }
+  },
+  {
+    "rowIndex": 117,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL3",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9149374357
+    }
+  },
+  {
+    "rowIndex": 118,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7432321638
+    }
+  },
+  {
+    "rowIndex": 119,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "75 BARNEY BROOK ROAD  LOT 28",
+      "Address2": null,
+      "City": "CARLISLE",
+      "State": "PA",
+      "ZIP": 17013,
+      "UpdatePhone": 7178166161,
+      "ANI": 7178166161
+    }
+  },
+  {
+    "rowIndex": 120,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "Local 8",
+      "Disposition": "LEAD",
+      "Address1": "3004 STANTON RD SE",
+      "Address2": null,
+      "City": "WASHINGTON",
+      "State": "DC",
+      "ZIP": 20020,
+      "UpdatePhone": 2025690904,
+      "ANI": 2025690904
+    }
+  },
+  {
+    "rowIndex": 122,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL2",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2097249243
+    }
+  },
+  {
+    "rowIndex": 123,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "716 GUIDRY ROAD",
+      "Address2": null,
+      "City": "LAFAYETTE",
+      "State": "LA",
+      "ZIP": 70503,
+      "UpdatePhone": 3379819214,
+      "ANI": 3373224456
+    }
+  },
+  {
+    "rowIndex": 125,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "Local 15",
+      "Disposition": "LEAD",
+      "Address1": "111 RIVA RIDGE LN",
+      "Address2": null,
+      "City": "NEWNAN",
+      "State": "GA",
+      "ZIP": 30263,
+      "UpdatePhone": 9432425666,
+      "ANI": 9432425666
+    }
+  },
+  {
+    "rowIndex": 126,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "MELBOURNE",
+      "State": "FL",
+      "ZIP": 32935,
+      "UpdatePhone": 3212540415,
+      "ANI": 3212540415
+    }
+  },
+  {
+    "rowIndex": 127,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 12
+      },
+      "SourceName": "National 1",
+      "Disposition": "LEAD",
+      "Address1": "12189 FOREST BAPTIST CHURCH RD",
+      "Address2": null,
+      "City": "BENTON",
+      "State": "IL",
+      "ZIP": 62812,
+      "UpdatePhone": 6186632209,
+      "ANI": 6186632209
+    }
+  },
+  {
+    "rowIndex": 130,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "DOES NOT WANT TO GIVE",
+      "Address2": null,
+      "City": "FRESNO",
+      "State": "CA",
+      "ZIP": 93727,
+      "UpdatePhone": 5593330200,
+      "ANI": 5593330200
+    }
+  },
+  {
+    "rowIndex": 131,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "4369 EWYNG AVE N",
+      "Address2": null,
+      "City": "MINNEAPOLIS",
+      "State": "MN",
+      "ZIP": 55422,
+      "UpdatePhone": 6127150050,
+      "ANI": 6127150050
+    }
+  },
+  {
+    "rowIndex": 133,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "908 DORSETT AVE ",
+      "Address2": null,
+      "City": "ALBANY",
+      "State": "GA",
+      "ZIP": 31701,
+      "UpdatePhone": 4048248358,
+      "ANI": 4048248358
+    }
+  },
+  {
+    "rowIndex": 134,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2293192568
+    }
+  },
+  {
+    "rowIndex": 135,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "959 SOUTH FORTH APT 3",
+      "Address2": null,
+      "City": "MEMPHIS",
+      "State": "TN",
+      "ZIP": 38126,
+      "UpdatePhone": 9012366339,
+      "ANI": 9012366339
+    }
+  },
+  {
+    "rowIndex": 136,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9856297913
+    }
+  },
+  {
+    "rowIndex": 138,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5096040096
+    }
+  },
+  {
+    "rowIndex": 140,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "11 PALOMAR PL",
+      "Address2": null,
+      "City": "WOODLAND",
+      "State": "CA",
+      "ZIP": 95695,
+      "UpdatePhone": 2084197108,
+      "ANI": 2084197108
+    }
+  },
+  {
+    "rowIndex": 141,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL2",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4097901739
+    }
+  },
+  {
+    "rowIndex": 142,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "9571 PAXVILLE HIGHWAY ",
+      "Address2": null,
+      "City": "MANNING",
+      "State": "SC",
+      "ZIP": 29102,
+      "UpdatePhone": 8034916422,
+      "ANI": 8034916422
+    }
+  },
+  {
+    "rowIndex": 143,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "National 30",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2058997240
+    }
+  },
+  {
+    "rowIndex": 145,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4235440574
+    }
+  },
+  {
+    "rowIndex": 149,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "CPL2",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": 2188398368,
+      "ANI": 2188398368
+    }
+  },
+  {
+    "rowIndex": 150,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 13
+      },
+      "SourceName": "National 22",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5618567280
+    }
+  },
+  {
+    "rowIndex": 151,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "219 CHESS STREET",
+      "Address2": null,
+      "City": "STATESBORO",
+      "State": "GA",
+      "ZIP": 30458,
+      "UpdatePhone": 9126014100,
+      "ANI": 9126014100
+    }
+  },
+  {
+    "rowIndex": 152,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5043524358
+    }
+  },
+  {
+    "rowIndex": 154,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "Local 20",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9017656271
+    }
+  },
+  {
+    "rowIndex": 155,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "National 35",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": "Restricted"
+    }
+  },
+  {
+    "rowIndex": 157,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "ADDRESS UNKNOWN",
+      "Address2": null,
+      "City": "CAMILLA",
+      "State": "GA",
+      "ZIP": 31730,
+      "UpdatePhone": 2293952541,
+      "ANI": 2293952541
+    }
+  },
+  {
+    "rowIndex": 158,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8163285984
+    }
+  },
+  {
+    "rowIndex": 160,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "National 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8163285984
+    }
+  },
+  {
+    "rowIndex": 161,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "3382 PINCKARD PIKE ",
+      "Address2": null,
+      "City": "VERSAILLES",
+      "State": "KY",
+      "ZIP": 40383,
+      "UpdatePhone": 8592978681,
+      "ANI": 8592978681
+    }
+  },
+  {
+    "rowIndex": 162,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "6810 CAYNE HARDY RD",
+      "Address2": null,
+      "City": "GIBSONVILLE",
+      "State": "NC",
+      "ZIP": 27249,
+      "UpdatePhone": 3363393835,
+      "ANI": 3363393835
+    }
+  },
+  {
+    "rowIndex": 164,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3305031356
+    }
+  },
+  {
+    "rowIndex": 166,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "25847 CLAYTON AVE",
+      "Address2": null,
+      "City": "CLAREMORE",
+      "State": "OK",
+      "ZIP": 74019,
+      "UpdatePhone": 9187148838,
+      "ANI": 9187148838
+    }
+  },
+  {
+    "rowIndex": 167,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2052498791
+    }
+  },
+  {
+    "rowIndex": 168,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "National 95",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9795511619
+    }
+  },
+  {
+    "rowIndex": 169,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "National 30",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5047840410
+    }
+  },
+  {
+    "rowIndex": 170,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "311 S COOK ST",
+      "Address2": null,
+      "City": "CARTHAGE",
+      "State": "TX",
+      "ZIP": 75633,
+      "UpdatePhone": 9032631624,
+      "ANI": 9032631624
+    }
+  },
+  {
+    "rowIndex": 171,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "8380 OAK LAWN STREET",
+      "Address2": null,
+      "City": "MOORINGSPORT",
+      "State": "LA",
+      "ZIP": 71060,
+      "UpdatePhone": 3185194546,
+      "ANI": 3185194546
+    }
+  },
+  {
+    "rowIndex": 172,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7188790036
+    }
+  },
+  {
+    "rowIndex": 174,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "2500 NE MCWILLIAMS RD  APT K9",
+      "Address2": null,
+      "City": "BREMERTON",
+      "State": "WA",
+      "ZIP": 98311,
+      "UpdatePhone": 3607287495,
+      "ANI": 3607287495
+    }
+  },
+  {
+    "rowIndex": 175,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "8528 VALLEY HILL DRIVE ",
+      "Address2": null,
+      "City": "BIRMINGHAM",
+      "State": "AL",
+      "ZIP": 35206,
+      "UpdatePhone": 2059028930,
+      "ANI": 2056012645
+    }
+  },
+  {
+    "rowIndex": 176,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 14
+      },
+      "SourceName": "Local 7",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3524931197
+    }
+  },
+  {
+    "rowIndex": 178,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "National 32",
+      "Disposition": "LEAD",
+      "Address1": "3903 HAWK OWL COVE",
+      "Address2": null,
+      "City": "COLLEGE STATION",
+      "State": "TX",
+      "ZIP": 77845,
+      "UpdatePhone": 9795750370,
+      "ANI": 9795750370
+    }
+  },
+  {
+    "rowIndex": 179,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "Local 11",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3308083698
+    }
+  },
+  {
+    "rowIndex": 181,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "3537 WEST BIG BEN DRIVE ",
+      "Address2": null,
+      "City": "MEMPHIS",
+      "State": "TN",
+      "ZIP": 38116,
+      "UpdatePhone": 9012161245,
+      "ANI": 9012161245
+    }
+  },
+  {
+    "rowIndex": 182,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "625 JORDAN ST  APT 308",
+      "Address2": null,
+      "City": "SHREVEPORT",
+      "State": "LA",
+      "ZIP": 71101,
+      "UpdatePhone": 3184409742,
+      "ANI": 3184409742
+    }
+  },
+  {
+    "rowIndex": 183,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "2006 STONE BROOK PL",
+      "Address2": null,
+      "City": "STILWELL",
+      "State": "OK",
+      "ZIP": 74960,
+      "UpdatePhone": 9187976214,
+      "ANI": 9187976214
+    }
+  },
+  {
+    "rowIndex": 184,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL3",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7134598020
+    }
+  },
+  {
+    "rowIndex": 185,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "Local 15",
+      "Disposition": "LEAD",
+      "Address1": "1202 SUMMERWALK PARKWAY",
+      "Address2": null,
+      "City": "TUCKER",
+      "State": "GA",
+      "ZIP": 30084,
+      "UpdatePhone": 4045588028,
+      "ANI": 4045588028
+    }
+  },
+  {
+    "rowIndex": 187,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "2449 WURTH CT",
+      "Address2": null,
+      "City": "SACRAMENTO",
+      "State": "CA",
+      "ZIP": 95825,
+      "UpdatePhone": 9168771756,
+      "ANI": 9168771756
+    }
+  },
+  {
+    "rowIndex": 188,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9185501790
+    }
+  },
+  {
+    "rowIndex": 189,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9162613471
+    }
+  },
+  {
+    "rowIndex": 190,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "National 138",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8045176938
+    }
+  },
+  {
+    "rowIndex": 191,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "National 35",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "GERMANTOWN",
+      "State": "TN",
+      "ZIP": 38138,
+      "UpdatePhone": 6026624629,
+      "ANI": 6026624629
+    }
+  },
+  {
+    "rowIndex": 194,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "Local 16",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9542001941
+    }
+  },
+  {
+    "rowIndex": 195,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "18414 HEWLETT RD",
+      "Address2": null,
+      "City": "ORLANDO",
+      "State": "FL",
+      "ZIP": 32820,
+      "UpdatePhone": 3214460660,
+      "ANI": 3214460660
+    }
+  },
+  {
+    "rowIndex": 197,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "604 TRIMAZERA DRIVE ",
+      "Address2": null,
+      "City": "ARLINGTON",
+      "State": "TX",
+      "ZIP": 76002,
+      "UpdatePhone": 9727307969,
+      "ANI": 9727307969
+    }
+  },
+  {
+    "rowIndex": 198,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2604836601
+    }
+  },
+  {
+    "rowIndex": 199,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9136380325
+    }
+  },
+  {
+    "rowIndex": 200,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "1502 DIAMOND CT APT 5",
+      "Address2": null,
+      "City": "COVINGTON",
+      "State": "KY",
+      "ZIP": 41011,
+      "UpdatePhone": 8594447355,
+      "ANI": 8594447355
+    }
+  },
+  {
+    "rowIndex": 201,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 15
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9106229990
+    }
+  },
+  {
+    "rowIndex": 202,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "National 12",
+      "Disposition": "Test Call",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5853645565
+    }
+  },
+  {
+    "rowIndex": 203,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "National 30",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2055211470
+    }
+  },
+  {
+    "rowIndex": 205,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "National 30",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2055211470
+    }
+  },
+  {
+    "rowIndex": 206,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "1023 17TH AVE  APT A ",
+      "Address2": null,
+      "City": "MOLINE",
+      "State": "IL",
+      "ZIP": 61265,
+      "UpdatePhone": 3095176123,
+      "ANI": 4805185659
+    }
+  },
+  {
+    "rowIndex": 207,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "578 COUNTY RD 62",
+      "Address2": null,
+      "City": "BREMEN",
+      "State": "AL",
+      "ZIP": 35033,
+      "UpdatePhone": 2566363584,
+      "ANI": 2566363584
+    }
+  },
+  {
+    "rowIndex": 208,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8177036565
+    }
+  },
+  {
+    "rowIndex": 209,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4174013022
+    }
+  },
+  {
+    "rowIndex": 210,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "711  FAREWELL  STREET",
+      "Address2": null,
+      "City": "RALEIGH",
+      "State": "NC",
+      "ZIP": 27603,
+      "UpdatePhone": 3367625329,
+      "ANI": 3367625329
+    }
+  },
+  {
+    "rowIndex": 211,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Language Barrier (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9185501790
+    }
+  },
+  {
+    "rowIndex": 212,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2295905575
+    }
+  },
+  {
+    "rowIndex": 213,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "433 NIGHT WALTERS RD",
+      "Address2": null,
+      "City": "SHELBYVILLE",
+      "State": "KY",
+      "ZIP": 40065,
+      "UpdatePhone": 5023905571,
+      "ANI": 5023905571
+    }
+  },
+  {
+    "rowIndex": 215,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9727307969
+    }
+  },
+  {
+    "rowIndex": 216,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "National 28",
+      "Disposition": "LEAD",
+      "Address1": "505 SAND LN  APT 6 ",
+      "Address2": null,
+      "City": "HENDERSON",
+      "State": "KY",
+      "ZIP": 42420,
+      "UpdatePhone": 2707241341,
+      "ANI": 2707241341
+    }
+  },
+  {
+    "rowIndex": 217,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "604 PRIMAVERA DR",
+      "Address2": null,
+      "City": "ARLINGTON",
+      "State": "TX",
+      "ZIP": 76002,
+      "UpdatePhone": 9727307969,
+      "ANI": 9727307969
+    }
+  },
+  {
+    "rowIndex": 218,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5408424822
+    }
+  },
+  {
+    "rowIndex": 219,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "CPL2",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4079105185
+    }
+  },
+  {
+    "rowIndex": 220,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 16
+      },
+      "SourceName": "National 131",
+      "Disposition": "LEAD",
+      "Address1": "1205 SNOW HILL RD .",
+      "Address2": null,
+      "City": "FRANKLIN",
+      "State": "NC",
+      "ZIP": 28734,
+      "UpdatePhone": 8284710024,
+      "ANI": 8283710024
+    }
+  },
+  {
+    "rowIndex": 222,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "5600 MINECESTO BLVD",
+      "Address2": null,
+      "City": "SACRAMENTO",
+      "State": "CA",
+      "ZIP": 95824,
+      "UpdatePhone": 9165987812,
+      "ANI": 9165987812
+    }
+  },
+  {
+    "rowIndex": 223,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": "7635 RIHEAN CIRCLE",
+      "Address2": null,
+      "City": "PORT CHARLOTTE",
+      "State": "FL",
+      "ZIP": 33981,
+      "UpdatePhone": 9416237122,
+      "ANI": 9416237122
+    }
+  },
+  {
+    "rowIndex": 224,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "1435 ABBOTT STREET",
+      "Address2": null,
+      "City": "ROANOKE",
+      "State": "VA",
+      "ZIP": 24017,
+      "UpdatePhone": 5403605816,
+      "ANI": 5403605816
+    }
+  },
+  {
+    "rowIndex": 225,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4632032322
+    }
+  },
+  {
+    "rowIndex": 226,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "CITRONELLE",
+      "State": "AL",
+      "ZIP": 36522,
+      "UpdatePhone": 2515186879,
+      "ANI": 2515186879
+    }
+  },
+  {
+    "rowIndex": 227,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2076305335
+    }
+  },
+  {
+    "rowIndex": 228,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4404299721
+    }
+  },
+  {
+    "rowIndex": 229,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "7511 SAGAMORE",
+      "Address2": null,
+      "City": "CLEVELAND",
+      "State": "OH",
+      "ZIP": 44103,
+      "UpdatePhone": 4404299721,
+      "ANI": 4404299721
+    }
+  },
+  {
+    "rowIndex": 232,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": "PO BOX 952",
+      "Address2": null,
+      "City": "CENTER OSSIPEE",
+      "State": "NH",
+      "ZIP": 3814,
+      "UpdatePhone": 6033872423,
+      "ANI": 6033872423
+    }
+  },
+  {
+    "rowIndex": 233,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "Local 15",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4045185454
+    }
+  },
+  {
+    "rowIndex": 236,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9184083446
+    }
+  },
+  {
+    "rowIndex": 237,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "1820 NW 63RD AVE",
+      "Address2": null,
+      "City": "FORT LAUDERDALE",
+      "State": "FL",
+      "ZIP": 33313,
+      "UpdatePhone": 9547742173,
+      "ANI": 9547742173
+    }
+  },
+  {
+    "rowIndex": 238,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9379910655
+    }
+  },
+  {
+    "rowIndex": 240,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 17
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "3673 WOODCOCK DR",
+      "Address2": null,
+      "City": "HEPHZIBAH",
+      "State": "GA",
+      "ZIP": 30815,
+      "UpdatePhone": 7067961994,
+      "ANI": 7067961994
+    }
+  },
+  {
+    "rowIndex": 241,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "11962 W KALTAG DRIVE",
+      "Address2": null,
+      "City": "WASILLA",
+      "State": "AK",
+      "ZIP": 99623,
+      "UpdatePhone": 9073575964,
+      "ANI": 9073575964
+    }
+  },
+  {
+    "rowIndex": 242,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "40  N 300 E",
+      "Address2": null,
+      "City": "SPANISH FORK",
+      "State": "UT",
+      "ZIP": 84660,
+      "UpdatePhone": 8016661416,
+      "ANI": 8016661416
+    }
+  },
+  {
+    "rowIndex": 243,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8506319801
+    }
+  },
+  {
+    "rowIndex": 244,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5035835343
+    }
+  },
+  {
+    "rowIndex": 245,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "1550 NORTH PARKWAY APT 813",
+      "Address2": null,
+      "City": "MEMPHIS",
+      "State": "TN",
+      "ZIP": 38112,
+      "UpdatePhone": 9014074198,
+      "ANI": 9014074198
+    }
+  },
+  {
+    "rowIndex": 246,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7069510038
+    }
+  },
+  {
+    "rowIndex": 247,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "2360 NW 91ST ST ",
+      "Address2": null,
+      "City": "MIAMI",
+      "State": "FL",
+      "ZIP": 33147,
+      "UpdatePhone": 3057411210,
+      "ANI": 3057411210
+    }
+  },
+  {
+    "rowIndex": 248,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "516 LARDO ST APT C5",
+      "Address2": null,
+      "City": "NAVASOTA",
+      "State": "TX",
+      "ZIP": 77868,
+      "UpdatePhone": 9364196719,
+      "ANI": 9364196719
+    }
+  },
+  {
+    "rowIndex": 249,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2529396325
+    }
+  },
+  {
+    "rowIndex": 250,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "5401 SOUTH YOUNGS PLACE",
+      "Address2": null,
+      "City": "OKLAHOMA CITY",
+      "State": "OK",
+      "ZIP": 73119,
+      "UpdatePhone": 4056818432,
+      "ANI": 4056818432
+    }
+  },
+  {
+    "rowIndex": 251,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5059181449
+    }
+  },
+  {
+    "rowIndex": 252,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "1897 NOLES CIRCLE",
+      "Address2": null,
+      "City": "LINCOLNTON",
+      "State": "NC",
+      "ZIP": 28092,
+      "UpdatePhone": 7047481455,
+      "ANI": 7047481455
+    }
+  },
+  {
+    "rowIndex": 253,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8706608323
+    }
+  },
+  {
+    "rowIndex": 254,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "National 33",
+      "Disposition": "LEAD",
+      "Address1": "1225 N 42ND ST ",
+      "Address2": null,
+      "City": "EAST SAINT LOUIS",
+      "State": "IL",
+      "ZIP": 62204,
+      "UpdatePhone": 6185090628,
+      "ANI": 6182150122
+    }
+  },
+  {
+    "rowIndex": 255,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "LEAD",
+      "Address1": "235 BLACK STREET APT 12",
+      "Address2": null,
+      "City": "ELLSWORTH",
+      "State": "KS",
+      "ZIP": 67439,
+      "UpdatePhone": 7855311415,
+      "ANI": 7855311415
+    }
+  },
+  {
+    "rowIndex": 257,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5176264371
+    }
+  },
+  {
+    "rowIndex": 259,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "Local 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4702408366
+    }
+  },
+  {
+    "rowIndex": 260,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "Local 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 6789923512
+    }
+  },
+  {
+    "rowIndex": 261,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "Local 1",
+      "Disposition": "LEAD",
+      "Address1": "1295 AUSTIN RD",
+      "Address2": null,
+      "City": "ELLENWOOD",
+      "State": "GA",
+      "ZIP": 30294,
+      "UpdatePhone": 4708859808,
+      "ANI": 4708859808
+    }
+  },
+  {
+    "rowIndex": 262,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Customer Service",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5176264371
+    }
+  },
+  {
+    "rowIndex": 264,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": "8960 CARLTON RD",
+      "Address2": null,
+      "City": "PORT SAINT LUCIE",
+      "State": "FL",
+      "ZIP": 34987,
+      "UpdatePhone": 7728344382,
+      "ANI": 7728344382
+    }
+  },
+  {
+    "rowIndex": 265,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "National 30",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8033782034
+    }
+  },
+  {
+    "rowIndex": 266,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3186217056
+    }
+  },
+  {
+    "rowIndex": 267,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "LAUREL",
+      "State": "MS",
+      "ZIP": 39440,
+      "UpdatePhone": 6019352381,
+      "ANI": 6019352381
+    }
+  },
+  {
+    "rowIndex": 269,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "90 JERRY STREET",
+      "Address2": null,
+      "City": "SUMTER",
+      "State": "SC",
+      "ZIP": 29153,
+      "UpdatePhone": 8136143013,
+      "ANI": 8136143013
+    }
+  },
+  {
+    "rowIndex": 270,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "1024 ANDREW ST",
+      "Address2": null,
+      "City": "KILGORE",
+      "State": "TX",
+      "ZIP": 75662,
+      "UpdatePhone": 9034249302,
+      "ANI": 9034249302
+    }
+  },
+  {
+    "rowIndex": 271,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "BROKEN ARROW",
+      "State": "OK",
+      "ZIP": 74014,
+      "UpdatePhone": 3039061928,
+      "ANI": 3039061928
+    }
+  },
+  {
+    "rowIndex": 272,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 18
+      },
+      "SourceName": "CPL2",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5055736271
+    }
+  },
+  {
+    "rowIndex": 273,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "LONG ISLAND CITY",
+      "State": "NY",
+      "ZIP": 11101,
+      "UpdatePhone": 9296236447,
+      "ANI": 9296236447
+    }
+  },
+  {
+    "rowIndex": 274,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": 313,
+      "Address2": null,
+      "City": "STOCKBRIDGE",
+      "State": "GA",
+      "ZIP": 30281,
+      "UpdatePhone": 4706036836,
+      "ANI": 4706036836
+    }
+  },
+  {
+    "rowIndex": 275,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "REFUSED STREET ADDRESS",
+      "Address2": null,
+      "City": "LARGO",
+      "State": "FL",
+      "ZIP": 33778,
+      "UpdatePhone": 7274667093,
+      "ANI": 7274667093
+    }
+  },
+  {
+    "rowIndex": 276,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "Local 1",
+      "Disposition": "LEAD",
+      "Address1": "5401 PANOLA WAY LN",
+      "Address2": null,
+      "City": "LITHONIA",
+      "State": "GA",
+      "ZIP": 30058,
+      "UpdatePhone": 7703354300,
+      "ANI": 7703354300
+    }
+  },
+  {
+    "rowIndex": 277,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "CPL3",
+      "Disposition": "Language Barrier (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4783209847
+    }
+  },
+  {
+    "rowIndex": 280,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "National 34",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2083715925
+    }
+  },
+  {
+    "rowIndex": 282,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2106057752
+    }
+  },
+  {
+    "rowIndex": 283,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "National 30",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4044290485
+    }
+  },
+  {
+    "rowIndex": 285,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "National 25",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7575975533
+    }
+  },
+  {
+    "rowIndex": 286,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 19
+      },
+      "SourceName": "National 60",
+      "Disposition": "LEAD",
+      "Address1": "11183 SHANANDOAH",
+      "Address2": null,
+      "City": "ADELANTO",
+      "State": "CA",
+      "ZIP": 92301,
+      "UpdatePhone": 9092605734,
+      "ANI": 9092605734
+    }
+  },
+  {
+    "rowIndex": 287,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": "5910 HIGHWAY 330",
+      "Address2": null,
+      "City": "OWENTON",
+      "State": "KY",
+      "ZIP": 40359,
+      "UpdatePhone": 5025141485,
+      "ANI": 5025141485
+    }
+  },
+  {
+    "rowIndex": 290,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": 4132259011,
+      "ANI": 4132259011
+    }
+  },
+  {
+    "rowIndex": 291,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Prank or Obscene",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4132259011
+    }
+  },
+  {
+    "rowIndex": 292,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "Local 3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2295206299
+    }
+  },
+  {
+    "rowIndex": 293,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9195029478
+    }
+  },
+  {
+    "rowIndex": 294,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5048844550
+    }
+  },
+  {
+    "rowIndex": 295,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "National 1",
+      "Disposition": "LEAD",
+      "Address1": "6903 PLEASANT BAY ",
+      "Address2": null,
+      "City": "SAN ANTONIO",
+      "State": "TX",
+      "ZIP": 78244,
+      "UpdatePhone": 2105170357,
+      "ANI": 2105170357
+    }
+  },
+  {
+    "rowIndex": 296,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "National 27",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4148883362
+    }
+  },
+  {
+    "rowIndex": 298,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "National 83",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3463100625
+    }
+  },
+  {
+    "rowIndex": 300,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "2314 PARKER RD APT 226",
+      "Address2": null,
+      "City": "CARROLLTON",
+      "State": "TX",
+      "ZIP": 75010,
+      "UpdatePhone": 4692122264,
+      "ANI": 4692122264
+    }
+  },
+  {
+    "rowIndex": 302,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Partial Lead",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": 2288619736,
+      "ANI": 2288619736
+    }
+  },
+  {
+    "rowIndex": 303,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "National 1",
+      "Disposition": "LEAD",
+      "Address1": "17218 LAKE SPRING AVE",
+      "Address2": null,
+      "City": "PALMDALE",
+      "State": "CA",
+      "ZIP": 93591,
+      "UpdatePhone": 6615265538,
+      "ANI": 6615265538
+    }
+  },
+  {
+    "rowIndex": 304,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "6450 MARSHAM DR",
+      "Address2": null,
+      "City": "ATLANTA",
+      "State": "GA",
+      "ZIP": 30349,
+      "UpdatePhone": 7042314664,
+      "ANI": 7042314664
+    }
+  },
+  {
+    "rowIndex": 305,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8047212731
+    }
+  },
+  {
+    "rowIndex": 306,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2293566027
+    }
+  },
+  {
+    "rowIndex": 307,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL3",
+      "Disposition": "Wrong # (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4049577831
+    }
+  },
+  {
+    "rowIndex": 308,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 20
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8597492735
+    }
+  },
+  {
+    "rowIndex": 311,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "National 40",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2196828081
+    }
+  },
+  {
+    "rowIndex": 312,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "National 43",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2086319921
+    }
+  },
+  {
+    "rowIndex": 313,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "Local 15",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4048798023
+    }
+  },
+  {
+    "rowIndex": 315,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 6366556313
+    }
+  },
+  {
+    "rowIndex": 316,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2147280506
+    }
+  },
+  {
+    "rowIndex": 317,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "5818 MARTIN LUTHER KING BLVD",
+      "Address2": null,
+      "City": "MOSS POINT",
+      "State": "MS",
+      "ZIP": 39563,
+      "UpdatePhone": 6012580650,
+      "ANI": 6012580650
+    }
+  },
+  {
+    "rowIndex": 318,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "13820 W DAKOTA PL ",
+      "Address2": null,
+      "City": "LAKEWOOD ",
+      "State": "CO",
+      "ZIP": 80228,
+      "UpdatePhone": 7202243279,
+      "ANI": 7202243279
+    }
+  },
+  {
+    "rowIndex": 319,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "6612 GRADE ST ",
+      "Address2": null,
+      "City": "DALLAS",
+      "State": "TX",
+      "ZIP": 75232,
+      "UpdatePhone": 9458005559,
+      "ANI": 9458005559
+    }
+  },
+  {
+    "rowIndex": 320,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "8315 M65",
+      "Address2": null,
+      "City": "POSEN",
+      "State": "MI",
+      "ZIP": 49776,
+      "UpdatePhone": 9896579499,
+      "ANI": 9896579499
+    }
+  },
+  {
+    "rowIndex": 321,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "National 31",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3368474340
+    }
+  },
+  {
+    "rowIndex": 322,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "300 TIDWILL HOLLOW RD",
+      "Address2": null,
+      "City": "ONEONTA",
+      "State": "AL",
+      "ZIP": 35121,
+      "UpdatePhone": 2052370282,
+      "ANI": 2052370282
+    }
+  },
+  {
+    "rowIndex": 323,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "684 24TH ST",
+      "Address2": null,
+      "City": "DES MOINES",
+      "State": "IA",
+      "ZIP": 50312,
+      "UpdatePhone": 5157458456,
+      "ANI": 5157458456
+    }
+  },
+  {
+    "rowIndex": 324,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 7038694800
+    }
+  },
+  {
+    "rowIndex": 325,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "MARCUS HOOK",
+      "State": "PA",
+      "ZIP": 19061,
+      "UpdatePhone": 6104169032,
+      "ANI": 6104169032
+    }
+  },
+  {
+    "rowIndex": 326,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "3775 MT. ELMIRA RD",
+      "Address2": null,
+      "City": "SHEPHERDSVILLE",
+      "State": "KY",
+      "ZIP": 40165,
+      "UpdatePhone": 5029381728,
+      "ANI": 5029381728
+    }
+  },
+  {
+    "rowIndex": 327,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "31625 OLD HIGHWAY 5",
+      "Address2": null,
+      "City": "LEBANON",
+      "State": "MO",
+      "ZIP": 65536,
+      "UpdatePhone": 4173225576,
+      "ANI": 4173225576
+    }
+  },
+  {
+    "rowIndex": 328,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "LEAD",
+      "Address1": "3315 COUNTY RD 3600",
+      "Address2": null,
+      "City": "INDEPENDENCE",
+      "State": "KS",
+      "ZIP": 67301,
+      "UpdatePhone": 6203132222,
+      "ANI": 6203132222
+    }
+  },
+  {
+    "rowIndex": 329,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2146943925
+    }
+  },
+  {
+    "rowIndex": 330,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "6654 VALBEZ",
+      "Address2": null,
+      "City": "MOBILE",
+      "State": "AL",
+      "ZIP": 36608,
+      "UpdatePhone": 2513558885,
+      "ANI": 2513558885
+    }
+  },
+  {
+    "rowIndex": 331,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "3212 TEAL STREET",
+      "Address2": null,
+      "City": "SLIDELL",
+      "State": "LA",
+      "ZIP": 70460,
+      "UpdatePhone": 9859603705,
+      "ANI": 9859603705
+    }
+  },
+  {
+    "rowIndex": 332,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "PO BOX 190",
+      "Address2": null,
+      "City": "GRAPELAND",
+      "State": "TX",
+      "ZIP": 75844,
+      "UpdatePhone": 8063361334,
+      "ANI": 8063361334
+    }
+  },
+  {
+    "rowIndex": 333,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL4",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9786870024
+    }
+  },
+  {
+    "rowIndex": 334,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4025976636
+    }
+  },
+  {
+    "rowIndex": 335,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "818 GAYLE ST",
+      "Address2": null,
+      "City": "PAPILLION",
+      "State": "NE",
+      "ZIP": 68046,
+      "UpdatePhone": 4025976636,
+      "ANI": 4025976636
+    }
+  },
+  {
+    "rowIndex": 336,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "13104 SUNRISE DR",
+      "Address2": null,
+      "City": "CABOOL",
+      "State": "MO",
+      "ZIP": 65689,
+      "UpdatePhone": 4172543250,
+      "ANI": 4172543250
+    }
+  },
+  {
+    "rowIndex": 339,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": "209 CECELIA ST",
+      "Address2": null,
+      "City": "SANTEE",
+      "State": "SC",
+      "ZIP": 29142,
+      "UpdatePhone": 8034966803,
+      "ANI": 8034966803
+    }
+  },
+  {
+    "rowIndex": 340,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "4033 33RD ST APT 317",
+      "Address2": null,
+      "City": "SAN DIEGO",
+      "State": "CA",
+      "ZIP": 92104,
+      "UpdatePhone": 6198220449,
+      "ANI": 6198220449
+    }
+  },
+  {
+    "rowIndex": 341,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 21
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8039828253
+    }
+  },
+  {
+    "rowIndex": 345,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3122340781
+    }
+  },
+  {
+    "rowIndex": 346,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL4",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2059281811
+    }
+  },
+  {
+    "rowIndex": 347,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4434106537
+    }
+  },
+  {
+    "rowIndex": 348,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL6",
+      "Disposition": "LEAD",
+      "Address1": null,
+      "Address2": null,
+      "City": "GASTONIA",
+      "State": "NC",
+      "ZIP": 28052,
+      "UpdatePhone": 9804374119,
+      "ANI": 9804374119
+    }
+  },
+  {
+    "rowIndex": 349,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5153133751
+    }
+  },
+  {
+    "rowIndex": 350,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL4",
+      "Disposition": "System Error (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9126900320
+    }
+  },
+  {
+    "rowIndex": 351,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL2",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9366150343
+    }
+  },
+  {
+    "rowIndex": 352,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "Four J`s Media",
+      "Disposition": "LEAD",
+      "Address1": "613 RANDOLPH ST",
+      "Address2": null,
+      "City": "MAYWOOD",
+      "State": "IL",
+      "ZIP": 60153,
+      "UpdatePhone": 2244604713,
+      "ANI": 2244604713
+    }
+  },
+  {
+    "rowIndex": 353,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8285411368
+    }
+  },
+  {
+    "rowIndex": 354,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "1514 EAST WACO AVE",
+      "Address2": null,
+      "City": "DALLAS",
+      "State": "TX",
+      "ZIP": 75216,
+      "UpdatePhone": 2146943925,
+      "ANI": 2146943925
+    }
+  },
+  {
+    "rowIndex": 355,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "331 N ST NE APT310",
+      "Address2": null,
+      "City": "WASHINGTON",
+      "State": "DC",
+      "ZIP": 20002,
+      "UpdatePhone": 2028910660,
+      "ANI": 2028910660
+    }
+  },
+  {
+    "rowIndex": 356,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL6",
+      "Disposition": "Prank or Obscene",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 3189651137
+    }
+  },
+  {
+    "rowIndex": 357,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "345 FRANKLIN STORE RD",
+      "Address2": null,
+      "City": "LEXINGTON",
+      "State": "TN",
+      "ZIP": 38351,
+      "UpdatePhone": 7316140783,
+      "ANI": 7316140783
+    }
+  },
+  {
+    "rowIndex": 358,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "3948 N 55TH ST",
+      "Address2": null,
+      "City": "OMAHA",
+      "State": "NE",
+      "ZIP": 68104,
+      "UpdatePhone": 4026904046,
+      "ANI": 4026904046
+    }
+  },
+  {
+    "rowIndex": 360,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL6",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 5738832528
+    }
+  },
+  {
+    "rowIndex": 361,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "National 34",
+      "Disposition": "LEAD",
+      "Address1": "2201 LENORD ROAD TRAILER 9",
+      "Address2": null,
+      "City": "BRYAN",
+      "State": "TX",
+      "ZIP": 77803,
+      "UpdatePhone": 9794465541,
+      "ANI": 9794465541
+    }
+  },
+  {
+    "rowIndex": 364,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "15538 TOURIEL RD LOT 16",
+      "Address2": null,
+      "City": "GULFPORT",
+      "State": "MS",
+      "ZIP": 39503,
+      "UpdatePhone": 2282263381,
+      "ANI": 2282263381
+    }
+  },
+  {
+    "rowIndex": 365,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "PO BOX 323",
+      "Address2": null,
+      "City": "RICHTON",
+      "State": "MS",
+      "ZIP": 39476,
+      "UpdatePhone": 6015495974,
+      "ANI": 6015495974
+    }
+  },
+  {
+    "rowIndex": 366,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "219 5TH AVE ",
+      "Address2": null,
+      "City": "DECATUR",
+      "State": "AL",
+      "ZIP": 35601,
+      "UpdatePhone": 2563093654,
+      "ANI": 2563093654
+    }
+  },
+  {
+    "rowIndex": 367,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 8179866417
+    }
+  },
+  {
+    "rowIndex": 368,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "National 37",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4129805709
+    }
+  },
+  {
+    "rowIndex": 369,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2563093654
+    }
+  },
+  {
+    "rowIndex": 370,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "1790 UNION BLVD ",
+      "Address2": null,
+      "City": "COLORADO SPRINGS",
+      "State": "CO",
+      "ZIP": 80909,
+      "UpdatePhone": 7195218645,
+      "ANI": 7195218645
+    }
+  },
+  {
+    "rowIndex": 371,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "Language Barrier (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 6199441947
+    }
+  },
+  {
+    "rowIndex": 372,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 9187241412
+    }
+  },
+  {
+    "rowIndex": 373,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "5985 DANDRIDGE LN APT 117",
+      "Address2": null,
+      "City": "SAN DIEGO",
+      "State": "CA",
+      "ZIP": 92115,
+      "UpdatePhone": 6199441947,
+      "ANI": 6199441947
+    }
+  },
+  {
+    "rowIndex": 374,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 22
+      },
+      "SourceName": "CPL3",
+      "Disposition": "Caller Refused To Provide Info",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 2563093654
+    }
+  },
+  {
+    "rowIndex": 376,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "CPL2",
+      "Disposition": "LEAD",
+      "Address1": "4813 CROSSVINE CT ",
+      "Address2": null,
+      "City": "DENTON",
+      "State": "TX",
+      "ZIP": 76208,
+      "UpdatePhone": 9723335157,
+      "ANI": 9723335157
+    }
+  },
+  {
+    "rowIndex": 377,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "CPL3",
+      "Disposition": "LEAD",
+      "Address1": "15 WOODHAVEN GARDEN CIRCLE",
+      "Address2": null,
+      "City": "JACKSON",
+      "State": "MS",
+      "ZIP": 39213,
+      "UpdatePhone": 6012917258,
+      "ANI": 6012917258
+    }
+  },
+  {
+    "rowIndex": 378,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "National 34",
+      "Disposition": "LEAD",
+      "Address1": "3117 DORSET DR",
+      "Address2": null,
+      "City": "LITTLE ROCK",
+      "State": "AR",
+      "ZIP": 72204,
+      "UpdatePhone": 5017650151,
+      "ANI": 5017650151
+    }
+  },
+  {
+    "rowIndex": 379,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "Local 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4042098238
+    }
+  },
+  {
+    "rowIndex": 380,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "Local 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 6784372692
+    }
+  },
+  {
+    "rowIndex": 381,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "Local 1",
+      "Disposition": "LEAD",
+      "Address1": "3533 HANCOCK VIEW",
+      "Address2": null,
+      "City": "DECATUR",
+      "State": "GA",
+      "ZIP": 30034,
+      "UpdatePhone": 2057056917,
+      "ANI": 2057056917
+    }
+  },
+  {
+    "rowIndex": 382,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "Local 1",
+      "Disposition": "No One Online (SL)",
+      "Address1": null,
+      "Address2": null,
+      "City": null,
+      "State": null,
+      "ZIP": null,
+      "UpdatePhone": null,
+      "ANI": 4706207866
+    }
+  },
+  {
+    "rowIndex": 383,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "CPL4",
+      "Disposition": "LEAD",
+      "Address1": "281 FRANK AVE",
+      "Address2": null,
+      "City": "MEMPHIS",
+      "State": "TN",
+      "ZIP": 38109,
+      "UpdatePhone": 9018491160,
+      "ANI": 9018491160
+    }
+  },
+  {
+    "rowIndex": 384,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": "10780 N HWY 99 SPC 45",
+      "Address2": null,
+      "City": "STOCKTON",
+      "State": "CA",
+      "ZIP": 95212,
+      "UpdatePhone": 2094622760,
+      "ANI": 2094622760
+    }
+  },
+  {
+    "rowIndex": 385,
+    "rowData": {
+      "Call_DTS": {
+        "year": 2025,
+        "month": 7,
+        "dayOfMonth": 6,
+        "hour": 23
+      },
+      "SourceName": "National 31",
+      "Disposition": "LEAD",
+      "Address1": "5646 SOUTH 139TH STREET",
+      "Address2": null,
+      "City": "OMAHA",
+      "State": "NE",
+      "ZIP": 68137,
+      "UpdatePhone": 4026096649,
+      "ANI": 4026096649
+    }
+  }
+]
