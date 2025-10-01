@@ -62,6 +62,7 @@ export class DataExtractorService {
             if (providerInput.dataInfo.sumRows) {
                 filtered = this.sumRowsFilterer(rows, providerInput.dataInfo)
             }
+            
             let validated = this.validator.dataValidator(item, filtered, providerInput.headerInfo, providerInput.dataInfo)
 
             if (!validated.success) {
@@ -154,7 +155,7 @@ export class DataExtractorService {
                     validate = this.utilityService.validators[sumRow.checkingFn] || this.utilityService.validators.default
                     return validate(cell)
                 } else {
-                    return cell === null
+                    return this.utilityService.isNull(cell).isValid
                 }
             })
         })

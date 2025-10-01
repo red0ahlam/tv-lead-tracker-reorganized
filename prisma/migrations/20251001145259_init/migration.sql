@@ -10,11 +10,9 @@ CREATE TABLE "public"."app_users" (
     "lastName" TEXT NOT NULL,
     "role" "public"."Role" NOT NULL DEFAULT 'USER',
     "joinedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    "accessToken" TEXT NOT NULL,
-    "refreshToken" TEXT NOT NULL,
-    "refreshTokenExp" TIMESTAMP(3) NOT NULL,
+    "accessToken" TEXT,
+    "refreshToken" TEXT,
     "resetToken" TEXT,
-    "resetTokenExp" TIMESTAMP(3),
 
     CONSTRAINT "app_users_pkey" PRIMARY KEY ("id")
 );

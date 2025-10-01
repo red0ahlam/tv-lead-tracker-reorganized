@@ -210,6 +210,7 @@ export class ValidatorService {
         }));
 
         for (const { column, headerName, checkingFn, constant, canBeEmpty, values } of targetColumns) {
+            
             const validate = checkingFn && this.utilityService.validators[checkingFn] ? this.utilityService.validators[checkingFn] : this.utilityService.validators.default;
             const newValues: any[] = []
             for (let rowIndex = 0; rowIndex < values.length; rowIndex++) {

@@ -9,7 +9,7 @@ export enum checkingFnType {
   parseDate = "parseDate",
   parseTime = "parseTime",
   isTimeRange = "isTimeRange",
-  isDays = "isDays",
+  isDay = "isDay",
   isCityState = "isCityState",
   isNumber = "isNumber",
   isRate = "isRate",

@@ -5,6 +5,7 @@ import { Reflector } from "@nestjs/core";
 import { PrismaService } from "../../prisma/prisma.service.js";
 import { UtilityService } from "../services/utility-service/utility.service.js";
 import { PermissionDeniedError } from "../exceptions/role.guard.exceptions.js";
+import { Role } from "@prisma/client";
 
 @Injectable()
 export class RoleGuard implements CanActivate {
@@ -25,7 +26,10 @@ export class RoleGuard implements CanActivate {
 
         const user = await this.prisma.user.findUnique({
             where: {
-                id: request.userId
+                id: request.userId,
+                role: {
+                    in: [...roles] as Role[]
+                }
             },
             select: {
                 role: true
@@ -36,17 +40,17 @@ export class RoleGuard implements CanActivate {
             throw new ForbiddenException('User has no roles');
         }
 
-        const isAuthorizedRole = roles.some((role) => {
-            return this.utlityService.normalizeText(user.role) === this.utlityService.normalizeText(role)
-        })
+        // const isAuthorizedRole = roles.some((role) => {
+        //     return this.utlityService.normalizeText(user.role) === this.utlityService.normalizeText(role)
+        // })
 
-        if(!isAuthorizedRole){
-            throw new PermissionDeniedError({
-                success: false,
-                message: "unauthorized role",
-                details: {}
-            })
-        }
+        // if (!isAuthorizedRole) {
+        //     throw new PermissionDeniedError({
+        //         success: false,
+        //         message: "unauthorized role",
+        //         details: {}
+        //     })
+        // }
 
         return true
     }

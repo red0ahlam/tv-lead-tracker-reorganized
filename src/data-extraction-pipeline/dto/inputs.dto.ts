@@ -11,6 +11,7 @@ import {
     IsDefined,
     IsNotEmpty,
     IsNumber,
+    Validate,
 } from 'class-validator';
 import { Type } from 'class-transformer';
 import { TableExtractionMode, checkingFnType } from './constants.dto.js';
@@ -73,9 +74,12 @@ class DataValueDTO {
     @IsDefined() @IsBoolean() canBeEmpty: boolean
 
     @IsOptional()
-    @IsString()
     @ValidateIf(o => o.checkingFn === checkingFnType.isConstant)
-    constant?: string
+    @Validate(o =>
+        typeof o.constant === 'string' ||
+        Array.isArray(o.constant)
+    )
+    constant?: string | string[]
 }
 
 class SumRowDTO {
@@ -203,7 +207,7 @@ export class LeadsExtractionInputDTO {
     tableSeparationPattern?: TableSeparationPatternDTO
 
     @IsDefined()
-    @ValidateNested({each: true})
+    @ValidateNested({ each: true })
     @Type(() => StepConfigDTO)
     processingSteps: StepConfigDTO[]
 }

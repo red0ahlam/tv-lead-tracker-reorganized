@@ -1,18 +1,20 @@
-import { Injectable } from '@nestjs/common';
+import { Injectable, ServiceUnavailableException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service.js';
-import { ChangePasswordDTO, LogInDTO, LogOutDTO, ResetPasswordDTO, SignUpDTO, UpdateAccessTokenDTO } from './dto/auth.dto.js';
+import { ChangePasswordDTO, LogInDTO, ResetPasswordDTO, SignUpDTO, UpdateAccessTokenDTO } from './dto/auth.dto.js';
 import { PasswordService } from './services/password/password.service.js';
 import { EmailAlreadyExistsError, EmailDoesNotExistError, InvalidCredentialsError, InvalidUserError } from './exceptions/auth.exceptions.js';
 import { ExpiredTokenError, InvalidTokenError } from '../common/exceptions/auth-guard.exceptions.js';
 import { v4 as uuidv4 } from 'uuid';
 import { JwtService } from '@nestjs/jwt';
 import { MailerService } from './services/mailer/mailer.service.js';
+import { ConfigService } from '@nestjs/config';
 
 @Injectable()
 export class AuthService {
 
     constructor(
         private prisma: PrismaService,
+        private configService: ConfigService,
         private passwordService: PasswordService,
         private jwtService: JwtService,
         private mailerService: MailerService
@@ -35,8 +37,8 @@ export class AuthService {
 
         let userId = uuidv4()
         let hashPassword = await this.passwordService.hashPassword(input.password)
-        let accessToken = await this.generateAccessToken(userId)
-        let { refreshToken, expiresIn } = await this.generateRefreshToken()
+        let accessToken = await this.generateJwtToken(userId, "5m")
+        let refreshToken = await this.generateRefreshJwtToken(userId, "10d")
 
         await this.prisma.user.create({
             data: {
@@ -46,14 +48,13 @@ export class AuthService {
                 email: input.email,
                 password: hashPassword,
                 accessToken: accessToken,
-                refreshToken: refreshToken,
-                refreshTokenExp: expiresIn
+                refreshToken: refreshToken
             }
         })
 
-        return { 
-            accessToken, 
-            refreshToken 
+        return {
+            accessToken,
+            refreshToken
         }
     }
 
@@ -74,8 +75,8 @@ export class AuthService {
             })
         }
 
-        const accessToken = await this.generateAccessToken(existingUser.id)
-        const { refreshToken, expiresIn } = await this.generateRefreshToken()
+        const accessToken = await this.generateJwtToken(existingUser.id, "5m")
+        const refreshToken = await this.generateRefreshJwtToken(existingUser.id, "10d")
 
         await this.prisma.user.update({
             where: {
@@ -83,8 +84,7 @@ export class AuthService {
             },
             data: {
                 accessToken: accessToken,
-                refreshToken: refreshToken,
-                refreshTokenExp: expiresIn
+                refreshToken: refreshToken
             }
         })
 
@@ -94,14 +94,14 @@ export class AuthService {
         }
     }
 
-    async logOut(userId: string){
+    async logOut(userId: string) {
         const user = await this.prisma.user.findUnique({
             where: {
                 id: userId
             }
         })
 
-        if(!user){
+        if (!user) {
             throw new InvalidUserError({
                 success: false,
                 message: "invalid user",
@@ -115,15 +115,14 @@ export class AuthService {
             },
             data: {
                 accessToken: null,
-                refreshToken: null,
-                refreshTokenExp: null
+                refreshToken: null
             }
         })
 
         return { message: "logout successful" }
     }
 
-    async changePassword(userId: string, input: ChangePasswordDTO){
+    async changePassword(userId: string, input: ChangePasswordDTO) {
         const { oldPassword, newPassword } = input
 
         const user = await this.prisma.user.findUnique({
@@ -132,7 +131,7 @@ export class AuthService {
             }
         })
 
-        if(!user){
+        if (!user) {
             throw new InvalidUserError({
                 success: false,
                 message: "no user found",
@@ -141,7 +140,7 @@ export class AuthService {
         }
 
         const passwordMatch = await this.passwordService.comparePassword(oldPassword, user.password)
-        if(!passwordMatch){
+        if (!passwordMatch) {
             throw new InvalidCredentialsError({
                 success: false,
                 message: "invalid password",
@@ -160,18 +159,18 @@ export class AuthService {
             }
         })
 
-        return {message: "password changed successfully"}
+        return { message: "password changed successfully" }
 
     }
 
-    async forgotPassword(email: string){
+    async forgotPassword(email: string) {
         const user = await this.prisma.user.findUnique({
             where: {
                 email
             }
         })
 
-        if(!user){
+        if (!user) {
             throw new EmailDoesNotExistError({
                 success: false,
                 message: "no such email exists",
@@ -179,24 +178,27 @@ export class AuthService {
             })
         }
 
-        const resetToken = uuidv4()
-        const expiryDate = new Date()
-        expiryDate.setHours(expiryDate.getUTCHours() + 1)
+        const resetToken = await this.generateResetJwtToken(user.id, "1h")
 
         await this.prisma.user.update({
             where: {
                 email
-            }, 
+            },
             data: {
-                resetToken: resetToken,
-                resetTokenExp: expiryDate 
+                resetToken: resetToken
             }
         })
-        await this.mailerService.sendPasswordResetEmail(email, resetToken)
+
+        try {
+            await this.mailerService.sendPasswordResetEmail(email, resetToken)
+        } catch (error) {
+            new ServiceUnavailableException("something went wrong on our end, try again later")
+        }
+
         return { message: "if this user exists, they will recieve an email" }
     }
 
-    async resetPassword(input: ResetPasswordDTO){
+    async resetPassword(input: ResetPasswordDTO) {
         const { newPassword, resetToken } = input
         const user = await this.prisma.user.findUnique({
             where: {
@@ -204,7 +206,7 @@ export class AuthService {
             }
         })
 
-        if(!user){
+        if (!user) {
             throw new InvalidTokenError({
                 success: false,
                 message: "invalid token",
@@ -212,12 +214,13 @@ export class AuthService {
             })
         }
 
-        let isExpired = new Date().getTime() > new Date(user.resetTokenExp!).getTime()
-        if(isExpired){
+        try {
+            await this.verifyResetJwtToken(resetToken)
+        } catch (error) {
             throw new InvalidTokenError({
                 success: false,
                 message: "token expired",
-                details: {}
+                details: { message: error.message }
             })
         }
 
@@ -229,15 +232,14 @@ export class AuthService {
             },
             data: {
                 password: newPasswordHash,
-                resetToken: null,
-                resetTokenExp: null
+                resetToken: null
             }
         })
 
         return { message: "password reset successful" }
     }
 
-    async updateAccessToken(input: UpdateAccessTokenDTO){
+    async updateAccessToken(input: UpdateAccessTokenDTO) {
         const { refreshToken } = input
         const existingUser = await this.prisma.user.findUnique({
             where: {
@@ -245,7 +247,7 @@ export class AuthService {
             }
         })
 
-        if(!existingUser){
+        if (!existingUser) {
             throw new InvalidUserError({
                 success: false,
                 message: "invalid refresh token",
@@ -253,16 +255,17 @@ export class AuthService {
             })
         }
 
-        const isExpired = new Date().getTime() > new Date(existingUser.refreshTokenExp!).getTime()
-        if(isExpired){
+        try {
+            await this.verifyRefreshJwtToken(refreshToken)
+        } catch (error) {
             throw new ExpiredTokenError({
                 success: false,
                 message: "refresh token expired",
-                details: {}
+                details: { message: error.message }
             })
         }
 
-        const accessToken = await this.generateAccessToken(existingUser.id)
+        const accessToken = await this.generateJwtToken(existingUser.id, "5m")
 
         await this.prisma.user.update({
             where: {
@@ -278,17 +281,23 @@ export class AuthService {
         }
     }
 
-    private async generateAccessToken(userId: string){
-        return await this.jwtService.signAsync({ userId }, { expiresIn: "5m" })
+    private async generateJwtToken(userId: string, expiresIn: string) {
+        return await this.jwtService.signAsync({ userId }, { expiresIn })
     }
 
-    private async generateRefreshToken(){
-        const refreshToken = uuidv4()
-        const expiresIn = new Date()
-        expiresIn.setDate(expiresIn.getDate() + 10)
-        return {
-            refreshToken,
-            expiresIn
-        }
+    private async generateRefreshJwtToken(userId: string, expiresIn: string) {
+        return await this.jwtService.signAsync({ userId }, { expiresIn,secret: this.configService.get<string>("JWT_REFRESH_SECRET") })
+    }
+
+    private async verifyRefreshJwtToken(token: string) {
+        return await this.jwtService.verifyAsync(token, { secret: this.configService.get<string>("JWT_REFRESH_SECRET") })
+    }
+
+    private async generateResetJwtToken(userId: string, expiresIn: string) {
+        return await this.jwtService.signAsync({ userId }, { expiresIn,secret: this.configService.get<string>("JWT_RESET_SECRET") })
+    }
+
+    private async verifyResetJwtToken(token: string) {
+        return await this.jwtService.verifyAsync(token, { secret: this.configService.get<string>("JWT_RESET_SECRET") })
     }
 }

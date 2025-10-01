@@ -3,7 +3,7 @@ import { UtilityValidationResult } from '../../../common/interfaces/interfaces.g
 
 @Injectable()
 export class UtilityService {
-    validators: Record<string, (value: any, constant?: string) => UtilityValidationResult<Date | string | number | RegExpMatchArray>>
+    validators: Record<string, (value: any, constant?: string | string[]) => UtilityValidationResult<Date | string | number | RegExpMatchArray>>
     count: number = 0
 
     constructor() {
@@ -13,7 +13,7 @@ export class UtilityService {
             isTimeRange: this.isTimeRange.bind(this),
             isUsaCalenderDateTime: this.isUsaCalenderDateTime.bind(this),
             isEmail: this.isEmail.bind(this),
-            isDays: this.isDays.bind(this),
+            isDay: this.isDay.bind(this),
             isCityState: this.isCityState.bind(this),
             isNumber: this.isNumber.bind(this),
             isRate: this.isRate.bind(this),
@@ -222,7 +222,7 @@ export class UtilityService {
         }
 
     }
-    isDays(value: string): UtilityValidationResult<string> {
+    isDay(value: string): UtilityValidationResult<string> {
         return {
             isValid: this.runRegex(value, /^(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)$/i),
             details: {
@@ -249,9 +249,13 @@ export class UtilityService {
             }
         }
     }
-    isConstant(value: string, constant: string): UtilityValidationResult<string> {
+    isConstant(value: string, constants: string | string[]): UtilityValidationResult<string> {
+        const normalizedValue = this.normalizeText(value);
+        const constantList = Array.isArray(constants) ? constants : [constants];
+        const isValid = constantList.some(c => this.normalizeText(c) === normalizedValue);
+
         return {
-            isValid: this.normalizeText(value) === this.normalizeText(constant),
+            isValid,
             details: {
                 passedValue: value,
                 returnedValue: { value }
@@ -260,7 +264,7 @@ export class UtilityService {
     }
     isNotNull(value: any): UtilityValidationResult<unknown> {
         return {
-            isValid: value !== null && value !== undefined,
+            isValid: value !== null && value !== undefined && value !== '',
             details: {
                 passedValue: value,
                 returnedValue: { value }

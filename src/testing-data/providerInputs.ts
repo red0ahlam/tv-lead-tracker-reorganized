@@ -50,12 +50,12 @@ const inspInput = {
       { "canBeEmpty": false, "column": 8, "headerColumn": 8, "checkingFn": "isLength" },
       { "canBeEmpty": false, "column": 9, "headerColumn": 9, "checkingFn": "parseDate" },
       { "canBeEmpty": true, "column": 10, "headerColumn": 10, "checkingFn": "parseTime" },
-      { "canBeEmpty": false, "column": 11, "headerColumn": 11, "checkingFn": "isDays" },
+      { "canBeEmpty": false, "column": 11, "headerColumn": 11, "checkingFn": "isDay" },
       { "canBeEmpty": false, "column": 12, "headerColumn": 12, "checkingFn": "isRate" },
       { "canBeEmpty": false, "column": 13, "headerColumn": 13 },
       { "canBeEmpty": true, "column": 14, "headerColumn": 14 },
       { "canBeEmpty": true, "column": 15, "headerColumn": 15 },
-      { "canBeEmpty": false, "column": 16, "headerColumn": 16, "checkingFn": "isTimeRange", "constant": "Will Ridings" },
+      { "canBeEmpty": false, "column": 16, "headerColumn": 16, "checkingFn": "isTimeRange" },
       { "canBeEmpty": false, "column": 17, "headerColumn": 17 },
       { "canBeEmpty": false, "column": 18, "headerColumn": 18, "checkingFn": "isNumber" },
       { "canBeEmpty": false, "column": 19, "headerColumn": 19, "checkingFn": "isConstant", "constant": "Chris House" },
@@ -66,6 +66,283 @@ const inspInput = {
     "endPattern": {
       "pattern": "Total:",
       "column": 2,
+      "isRepeated": true
+    }
+  }
+}
+
+const fetv_fmc_Input = {
+  "headerMapping": {
+    "map": {
+      "station": "Property",
+      "airDate": "Air Date",
+      "airTime": "Air Time",
+      "timePeriod": "Selling Name/Inventory Code",
+      "spot": "Ad-ID",
+      "rate": "Rate",
+      "status": "Log State"
+    }
+  },
+  "providerName": "fetv_fmc",
+  "tableType": "many",
+  "headerInfo": {
+    "startRow": 9,
+    "startColumn": 3,
+    "headerValues": [
+      { "value": "Property", "column": 3 },
+      { "value": "Primary AE", "column": 4 },
+      { "value": "Agency", "column": 5 },
+      { "value": "Advertiser", "column": 6 },
+      { "value": "Product Description", "column": 7 },
+      { "value": "Ad-ID", "column": 8 },
+      { "value": "Advertiser Brand", "column": 9 },
+      { "value": "Selling Name/Inventory Code", "column": 10 },
+      { "value": "Broadcast Week", "column": 11 },
+      { "value": "Air Date", "column": 12 },
+      { "value": "Day", "column": 13 },
+      { "value": "Air Time", "column": 14 },
+      { "value": "Program Name", "column": 15 },
+      { "value": "Length", "column": 16 },
+      { "value": "Rate", "column": 17 },
+      { "value": "Log State", "column": 18 }
+    ],
+    "isRepeated": true
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 3, "headerColumn": 3 },
+      { "canBeEmpty": false, "column": 4, "headerColumn": 4 },
+      { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "isConstant", "constant": "Senior Life Insurance Company" },
+      { "canBeEmpty": false, "column": 6, "headerColumn": 6, "checkingFn": "isConstant", "constant": "Senior Life Insurance Company" },
+      { "canBeEmpty": false, "column": 7, "headerColumn": 7 },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8 },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9 },
+      { "canBeEmpty": false, "column": 10, "headerColumn": 10 },
+      { "canBeEmpty": false, "column": 11, "headerColumn": 11, "checkingFn": "parseDate" },
+      { "canBeEmpty": false, "column": 12, "headerColumn": 12, "checkingFn": "parseDate" },
+      { "canBeEmpty": false, "column": 13, "headerColumn": 13, "checkingFn": "isDay" },
+      { "canBeEmpty": true, "column": 14, "headerColumn": 14, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 15, "headerColumn": 15 },
+      { "canBeEmpty": true, "column": 16, "headerColumn": 16, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 17, "headerColumn": 17, "checkingFn": "isRate" },
+      { "canBeEmpty": false, "column": 18, "headerColumn": 18 }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "Total:",
+      "column": 2,
+      "isRepeated": true
+    }
+  }
+}
+
+const getInput = {
+  "headerMapping": {
+    "map": {
+      "station": "Property",
+      "airDate": "Air Date",
+      "airTime": "Air Time",
+      "timePeriod": "Time Period",
+      "spot": "Ad-ID",
+      "rate": "Rate"
+    }
+  },
+  "providerName": "get",
+  "tableType": "one_connected",
+  "headerInfo": {
+    "startRow": 9,
+    "startColumn": 3,
+    "headerValues": [
+      { "value": "Property", "column": 3 },
+      { "value": "Break Code", "column": 4 },
+      { "value": "Air Date", "column": 5 },
+      { "value": "Time Period", "column": 6 },
+      { "value": "Air Time", "column": 7 },
+      { "value": "Length", "column": 8 },
+      { "value": "Ad-ID", "column": 9 },
+      { "value": "Rate", "column": 10 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 3, "headerColumn": 3},
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4},
+      { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 6, "headerColumn": 6, "checkingFn": "isTimeRange" },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9},
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10, "checkingFn": "isRate" }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "Total:",
+      "column": 2,
+      "isRepeated": true
+    }
+  }
+}
+
+const smccineInput = {
+  "headerMapping": {
+    "map": {
+      "station": "Property",
+      "airDate": "Air Date",
+      "airTime": "Air Time",
+      "timePeriod": "Time Period",
+      "spot": "Ad-ID",
+      "rate": "Rate"
+    }
+  },
+  "providerName": "smccine",
+  "tableType": "one_connected",
+  "headerInfo": {
+    "startRow": 9,
+    "startColumn": 3,
+    "headerValues": [
+      { "value": "Property", "column": 3 },
+      { "value": "Break Code", "column": 4 },
+      { "value": "Air Date", "column": 5 },
+      { "value": "Time Period", "column": 6 },
+      { "value": "Air Time", "column": 7 },
+      { "value": "Length", "column": 8 },
+      { "value": "Ad-ID", "column": 9 },
+      { "value": "Rate", "column": 10 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 3, "headerColumn": 3},
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4},
+      { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 6, "headerColumn": 6, "checkingFn": "isTimeRange" },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9},
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10, "checkingFn": "isRate" }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "Total:",
+      "column": 2,
+      "isRepeated": true
+    }
+  }
+}
+
+const gsnInput = {
+  "headerMapping": {
+    "map": {
+      "station": "Property",
+      "airDate": "Air Date",
+      "airTime": "Air Time",
+      "timePeriod": "Time Period",
+      "spot": "Ad-ID",
+      "rate": "Rate"
+    }
+  },
+  "providerName": "gsn",
+  "tableType": "one_connected",
+  "headerInfo": {
+    "startRow": 9,
+    "startColumn": 3,
+    "headerValues": [
+      { "value": "Property", "column": 3 },
+      { "value": "Break Code", "column": 4 },
+      { "value": "Air Date", "column": 5 },
+      { "value": "Time Period", "column": 6 },
+      { "value": "Air Time", "column": 7 },
+      { "value": "Length", "column": 8 },
+      { "value": "Ad-ID", "column": 9 },
+      { "value": "Rate", "column": 10 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 3, "headerColumn": 3},
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4},
+      { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 6, "headerColumn": 6, "checkingFn": "isTimeRange" },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9},
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10, "checkingFn": "isRate" }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "Total:",
+      "column": 2,
+      "isRepeated": true
+    }
+  }
+}
+
+const metvInput = {
+  "headerMapping": {
+    "map": {
+      "station": "Property",
+      "airDate": "Air Date",
+      "airTime": "Air Time",
+      "timePeriod": "Time Period",
+      "spot": "Ad-ID",
+      "rate": "Rate",
+      "status": "Spot Status"
+    }
+  },
+  "providerName": "metv",
+  "tableType": "many",
+  "headerInfo": {
+    "startRow": 10,
+    "startColumn": 4,
+    "headerValues": [
+      { "value": "Property", "column": 4 },
+      { "value": "Agency", "column": 5 },
+      { "value": "Advertiser", "column": 6 },
+      { "value": "Estimate", "column": 7 },
+      { "value": "Advertiser Brand", "column": 8 },
+      { "value": "Air Date", "column": 9 },
+      { "value": "Air Time", "column": 10 },
+      { "value": "Time Period", "column": 11 },
+      { "value": "Program Name", "column": 12 },
+      { "value": "Length", "column": 13 },
+      { "value": "Rate", "column": 14 },
+      { "value": "Ad-ID", "column": 15 },
+      { "value": "Spot Status", "column": 16 },
+      { "value": "Order #", "column": 17 },
+      { "value": "Broadcast Week", "column": 18 }
+    ],
+    "isRepeated": true
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 4, "headerColumn": 4 },
+      { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "isConstant", "constant": "NLS-TV-Leads LLC" },
+      { "canBeEmpty": false, "column": 6, "headerColumn": 6, "checkingFn": "isConstant", "constant": "Senior Life Insurance - DR" },
+      { "canBeEmpty": false, "column": 7, "headerColumn": 7 },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8, "checkingFn": "isConstant", "constant": "Senior Life Insurance" },
+      { "canBeEmpty": false, "column": 9, "headerColumn": 9, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 11, "headerColumn": 11, "checkingFn": "isTimeRange" },
+      { "canBeEmpty": true, "column": 12, "headerColumn": 12 },
+      { "canBeEmpty": true, "column": 13, "headerColumn": 13, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 14, "headerColumn": 14, "checkingFn": "isRate" },
+      { "canBeEmpty": true, "column": 15, "headerColumn": 15 },
+      { "canBeEmpty": true, "column": 16, "headerColumn": 16 },
+      { "canBeEmpty": true, "column": 17, "headerColumn": 17, "checkingFn": "isNumber" },
+      { "canBeEmpty": true, "column": 18, "headerColumn": 18, "checkingFn": "parseDate" }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "Total:",
+      "column": 3,
       "isRepeated": true
     }
   }
@@ -137,7 +414,69 @@ const tegnaInput = {
   }
 }
 
-const policynologyInput = {
+const metvPlusInput = {
+  "headerMapping": {
+    "map": {
+      "station": "Station",
+      "airDate": "Date",
+      "airTime": "Air Time",
+      "timePeriod": "Time Period",
+      "spot": "Ad-ID",
+      "rate": "Rate"
+    }
+  },
+  "providerName": "metvPlus",
+  "tableType": "one_divided",
+  "headerInfo": {
+    "startRow": 0,
+    "startColumn": 5,
+    "headerValues": [
+      { "value": "Station", "column": 5 },
+      { "value": "Weekday", "column": 6 },
+      { "value": "Date", "column": 7 },
+      { "value": "Air Time", "column": 8 },
+      { "value": "Program (Placed*)", "column": 9 },
+      { "value": "Time Period", "column": 10 },
+      { "value": "Agency", "column": 11 },
+      { "value": "Advertiser", "column": 12 },
+      { "value": "Order Product Description", "column": 13 },
+      { "value": "Estimate #", "column": 14 },
+      { "value": "Length", "column": 15 },
+      { "value": "Rate", "column": 16 },
+      { "value": "Ad-ID", "column": 17 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 5, "headerColumn": 5 },
+      { "canBeEmpty": true, "column": 6, "headerColumn": 6, "checkingFn": "isDay" },
+      { "canBeEmpty": false, "column": 7, "headerColumn": 7, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9},
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10, "checkingFn": "isTimeRange"},
+      { "canBeEmpty": false, "column": 11, "headerColumn": 11, "checkingFn": "isConstant", "constant": "NLS-TV-Leads LLC (WUN)" },
+      { "canBeEmpty": false, "column": 12, "headerColumn": 12, "checkingFn": "isConstant", "constant": "Senior Life Insurance - DR" },
+      { "canBeEmpty": true, "column": 13, "headerColumn": 13},
+      { "canBeEmpty": true, "column": 14, "headerColumn": 14 },
+      { "canBeEmpty": true, "column": 15, "headerColumn": 15, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 16, "headerColumn": 16, "checkingFn": "isRate" },
+      { "canBeEmpty": true, "column": 17, "headerColumn": 17 }
+    ],
+    "sumRows": [
+      { "column": 16, "checkingFn": "isRate" }
+    ]
+  },
+  "tableSeparationPattern": {
+    "startPattern": {
+      "pattern": "Week Start :",
+      "column": 4,
+      "isRepeated": false
+    }
+  }
+}
+
+const policynology_bounce_Input = {
   "headerMapping": {
     "map": {
       "station": "Program",
@@ -147,7 +486,175 @@ const policynologyInput = {
       "rate": "Rate"
     }
   },
-  "providerName": "policynology",
+  "providerName": "policynology_bounce",
+  "tableType": "one_connected",
+  "headerInfo": {
+    "startRow": 5,
+    "startColumn": 0,
+    "headerValues": [
+      { "value": "Program", "column": 0 },
+      { "value": "Agency", "column": 1 },
+      { "value": "Adv ID", "column": 2 },
+      { "value": "Air Date", "column": 3 },
+      { "value": "Aired Time", "column": 4 },
+      { "value": "Aired Length", "column": 5 },
+      { "value": "Order Product Description", "column": 6 },
+      { "value": "Rate", "column": 7 },
+      { "value": "Aired Ad-ID", "column": 8 },
+      { "value": "Prelog Data Name", "column": 9 },
+      { "value": "Estimate", "column": 10 },
+      { "value": "Access Code", "column": 11 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 0, "headerColumn": 0},
+      { "canBeEmpty": false, "column": 1, "headerColumn": 1, "checkingFn": "isConstant", "constant": "Policynology" },
+      { "canBeEmpty": false, "column": 2, "headerColumn": 2, "checkingFn": "isConstant", "constant": ["Senior Life Insurance (DR)/Senior Life Insurance (NAT)", "Senior Life Insurance (DR)/Senior Life Insurance (LOC)"] },
+      { "canBeEmpty": false, "column": 3, "headerColumn": 3, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 5, "headerColumn": 5, "checkingFn": "isLength" },
+      { "canBeEmpty": false, "column": 6, "headerColumn": 6, "checkingFn": "isConstant", "constant": ["Senior Life Insurance (NAT)", "Senior Life Insurance (LOC)"] },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7, "checkingFn": "isRate" },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8 },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9 },
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10 },
+      { "canBeEmpty": true, "column": 11, "headerColumn": 11 }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "*Pre & Post logs are subject to change after the broadcast month has been fully reconciled. During coverage of live events, spots may run out of rotation, and separation is not guaranteed",
+      "column": 0,
+      "isRepeated": false
+    }
+  }
+}
+
+const policynology_gritTV_Input = {
+  "headerMapping": {
+    "map": {
+      "station": "Network",
+      "airDate": "Air Date",
+      "airTime": "Aired Time",
+      "spot": "Aired Ad-ID",
+      "rate": "Rate"
+    }
+  },
+  "providerName": "policynology_gritTv",
+  "tableType": "one_connected",
+  "headerInfo": {
+    "startRow": 5,
+    "startColumn": 0,
+    "headerValues": [
+      { "value": "Agency", "column": 0 },
+      { "value": "Adv ID", "column": 1 },
+      { "value": "Air Date", "column": 2 },
+      { "value": "Aired Time", "column": 3 },
+      { "value": "Aired Length", "column": 4 },
+      { "value": "Order Product Description", "column": 5 },
+      { "value": "Rate", "column": 6 },
+      { "value": "Aired Ad-ID", "column": 7 },
+      { "value": "Prelog Data Name", "column": 8 },
+      { "value": "Estimate", "column": 9 },
+      { "value": "Access Code", "column": 10 },
+      { "value": "Network", "column": 11 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 0, "headerColumn": 0, "checkingFn": "isConstant", "constant": "Policynology" },
+      { "canBeEmpty": false, "column": 1, "headerColumn": 1, "checkingFn": "isConstant", "constant": "Senior Life Insurance (DR)/Senior Life Insurance" },
+      { "canBeEmpty": false, "column": 2, "headerColumn": 2, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 3, "headerColumn": 3, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4, "checkingFn": "isLength" },
+      { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "isConstant", "constant": "Senior Life Insurance" },
+      { "canBeEmpty": true, "column": 6, "headerColumn": 6, "checkingFn": "isRate" },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7 },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8 },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9 },
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10 },
+      { "canBeEmpty": false, "column": 11, "headerColumn": 11 }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "*Logs represent prospective clearance on the date this report is run and do not guarantee clearance.  All clearance subject to change.",
+      "column": 0,
+      "isRepeated": false
+    }
+  }
+}
+
+const policynology_outlaw_Input = {
+  "headerMapping": {
+    "map": {
+      "station": "Program",
+      "airDate": "Air Date",
+      "airTime": "Aired Time",
+      "spot": "Aired Ad-ID",
+      "rate": "Rate"
+    }
+  },
+  "providerName": "policynology_outlaw",
+  "tableType": "one_connected",
+  "headerInfo": {
+    "startRow": 5,
+    "startColumn": 0,
+    "headerValues": [
+      { "value": "Program", "column": 0 },
+      { "value": "Agency", "column": 1 },
+      { "value": "Adv ID", "column": 2 },
+      { "value": "Air Date", "column": 3 },
+      { "value": "Aired Time", "column": 4 },
+      { "value": "Aired Length", "column": 5 },
+      { "value": "Order Product Description", "column": 6 },
+      { "value": "Rate", "column": 7 },
+      { "value": "Aired Ad-ID", "column": 8 },
+      { "value": "Prelog Data Name", "column": 9 },
+      { "value": "Estimate", "column": 10 },
+      { "value": "Access Code", "column": 11 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 0, "headerColumn": 0, "checkingFn": "isConstant", "constant": "Outlaw" },
+      { "canBeEmpty": false, "column": 1, "headerColumn": 1, "checkingFn": "isConstant", "constant": "Policynology" },
+      { "canBeEmpty": false, "column": 2, "headerColumn": 2, "checkingFn": "isConstant", "constant": "Senior Life Insurance/Senior Life" },
+      { "canBeEmpty": false, "column": 3, "headerColumn": 3, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 5, "headerColumn": 5, "checkingFn": "isLength" },
+      { "canBeEmpty": false, "column": 6, "headerColumn": 6, "checkingFn": "isConstant", "constant": "Senior Life" },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7, "checkingFn": "isRate" },
+      { "canBeEmpty": true, "column": 8, "headerColumn": 8 },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9 },
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10 },
+      { "canBeEmpty": true, "column": 11, "headerColumn": 11 }
+    ]
+  },
+  "tableSeparationPattern": {
+    "endPattern": {
+      "pattern": "*Pre & Post logs are subject to change after the broadcast month has been fully reconciled. During coverage of live events, spots may run out of rotation, and separation is not guaranteed",
+      "column": 0,
+      "isRepeated": false
+    }
+  }
+}
+
+const policynology_the365_Input = {
+  "headerMapping": {
+    "map": {
+      "station": "Program",
+      "airDate": "Air Date",
+      "airTime": "Aired Time",
+      "spot": "Aired Ad-ID",
+      "rate": "Rate"
+    }
+  },
+  "providerName": "policynology_the365",
   "tableType": "one_connected",
   "headerInfo": {
     "startRow": 5,
@@ -174,14 +681,14 @@ const policynologyInput = {
       { "canBeEmpty": false, "column": 1, "headerColumn": 1, "checkingFn": "isConstant", "constant": "Policynology" },
       { "canBeEmpty": false, "column": 2, "headerColumn": 2, "checkingFn": "isConstant", "constant": "Senior Life Insurance/Senior Life" },
       { "canBeEmpty": false, "column": 3, "headerColumn": 3, "checkingFn": "parseDate" },
-      { "canBeEmpty": false, "column": 4, "headerColumn": 4, "checkingFn": "parseTime" },
-      { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 5, "headerColumn": 5, "checkingFn": "isLength" },
       { "canBeEmpty": false, "column": 6, "headerColumn": 6, "checkingFn": "isConstant", "constant": "Senior Life" },
-      { "canBeEmpty": false, "column": 7, "headerColumn": 7, "checkingFn": "isRate" },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7, "checkingFn": "isRate" },
       { "canBeEmpty": true, "column": 8, "headerColumn": 8 },
-      { "canBeEmpty": false, "column": 9, "headerColumn": 9 },
-      { "canBeEmpty": false, "column": 10, "headerColumn": 10 },
-      { "canBeEmpty": false, "column": 11, "headerColumn": 11 }
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9 },
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10 },
+      { "canBeEmpty": true, "column": 11, "headerColumn": 11 }
     ]
   },
   "tableSeparationPattern": {
@@ -233,7 +740,7 @@ const paramountInput = {
       { "canBeEmpty": false, "column": 1, "headerColumn": 1, "checkingFn": "isNumber" },
       { "canBeEmpty": false, "column": 2, "headerColumn": 2, "checkingFn": "isNumber" },
       { "canBeEmpty": false, "column": 3, "headerColumn": 3, "checkingFn": "isNumber" },
-      { "canBeEmpty": false, "column": 4, "headerColumn": 4, "checkingFn": "isDays" },
+      { "canBeEmpty": false, "column": 4, "headerColumn": 4, "checkingFn": "isDay" },
       { "canBeEmpty": false, "column": 5, "headerColumn": 5, "checkingFn": "parseTime" },
       { "canBeEmpty": false, "column": 6, "headerColumn": 6, "checkingFn": "parseDate" },
       { "canBeEmpty": false, "column": 7, "headerColumn": 7, "checkingFn": "isTimeRange" },
@@ -321,6 +828,66 @@ const grayInput = {
   }
 }
 
+const sinclairInput = {
+  "headerMapping": {
+    "map": {
+      "station": "Station",
+      "airDate": "Air Date",
+      "airTime": "Air Time",
+      "spot": "ISCI Code",
+      "rate": "Line Rate"
+    }
+  },
+  "providerName": "sinclair",
+  "tableType": "one_connected",
+  "headerInfo": {
+    "startRow": 0,
+    "startColumn": 0,
+    "headerValues": [
+      { "value": "Advertiser Name", "column": 0 },
+      { "value": "Agency Name", "column": 1 },
+      { "value": "Market", "column": 2 },
+      { "value": "Station", "column": 3 },
+      { "value": "Affiliation", "column": 4 },
+      { "value": "Day of Week", "column": 5 },
+      { "value": "Brdcast Week", "column": 6 },
+      { "value": "ISCI Code", "column": 7 },
+      { "value": "Air Date", "column": 8 },
+      { "value": "Air Time", "column": 9 },
+      { "value": "Program Long Name", "column": 10 },
+      { "value": "Brand Name", "column": 11 },
+      { "value": "Contract #", "column": 12 },
+      { "value": "Estimate Number", "column": 13 },
+      { "value": "Line Rate", "column": 14 },
+      { "value": "Spot Length", "column": 15 },
+      { "value": "Split Type", "column": 16 },
+      { "value": "C/P/E ", "column": 17 }
+    ],
+    "isRepeated": false
+  },
+  "dataInfo": {
+    "dataValues": [
+      { "canBeEmpty": false, "column": 0, "headerColumn": 0, "checkingFn": "isConstant", "constant": "Senior Life Insurance" },
+      { "canBeEmpty": false, "column": 1, "headerColumn": 1, "checkingFn": "isConstant", "constant": "Senior Life Insurance Company" },
+      { "canBeEmpty": false, "column": 2, "headerColumn": 2, "checkingFn": "isCityState" },
+      { "canBeEmpty": false, "column": 3, "headerColumn": 3 },
+      { "canBeEmpty": true, "column": 4, "headerColumn": 4 },
+      { "canBeEmpty": true, "column": 5, "headerColumn": 5, "checkingFn": "isDay" },
+      { "canBeEmpty": true, "column": 6, "headerColumn": 6, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 7, "headerColumn": 7 },
+      { "canBeEmpty": false, "column": 8, "headerColumn": 8, "checkingFn": "parseDate" },
+      { "canBeEmpty": true, "column": 9, "headerColumn": 9, "checkingFn": "parseTime" },
+      { "canBeEmpty": true, "column": 10, "headerColumn": 10 },
+      { "canBeEmpty": true, "column": 11, "headerColumn": 11 },
+      { "canBeEmpty": false, "column": 12, "headerColumn": 12, "checkingFn": "isNumber" },
+      { "canBeEmpty": true, "column": 13, "headerColumn": 13 },
+      { "canBeEmpty": true, "column": 14, "headerColumn": 14, "checkingFn": "isRate" },
+      { "canBeEmpty": true, "column": 15, "headerColumn": 15, "checkingFn": "isLength" },
+      { "canBeEmpty": true, "column": 16, "headerColumn": 16 },
+      { "canBeEmpty": true, "column": 17, "headerColumn": 17 }
+    ]
+  }
+}
 
 const nexstarInput = {
   "headerMapping": {
@@ -515,7 +1082,7 @@ const callCenter1Input = {
     { order: 3, name: "setEmptyANI" },
     { order: 4, name: "dropPolicyHolders", options: { commentsColumnKey: "CS Comments" } },
     { order: 5, name: "getRidOfNonNumberAni" },
-    { order: 5, name: "deduplicateANI", options: {aniExcludedKeys: ['session id', 'call dts', 'lead type', 'disposition', 'Comments', 'CS Comments', 'NameOfAgent', 'ani'], campaignKey: 'SourceName'}}
+    { order: 5, name: "deduplicateANI", options: { aniExcludedKeys: ['session id', 'call dts', 'lead type', 'disposition', 'Comments', 'CS Comments', 'NameOfAgent', 'ani'], campaignKey: 'SourceName' } }
   ]
 }
 
@@ -574,17 +1141,27 @@ const callCenter2Input = {
     { order: 4, name: "setEmptyANI" },
     { order: 5, name: "dropPolicyHolders", options: { commentsColumnKey: "Comments" } },
     { order: 6, name: "getRidOfNonNumberAni" },
-    { order: 7, name: "deduplicateANI", options: {aniExcludedKeys: ['call dts', 'Comments', 'Appointment', 'NameOfAgent', 'ani'], campaignKey: 'SourceName'}}
+    { order: 7, name: "deduplicateANI", options: { aniExcludedKeys: ['call dts', 'Comments', 'Appointment', 'NameOfAgent', 'ani'], campaignKey: 'SourceName' } }
   ]
 }
 
 export const providerInputMap = {
   "insp": inspInput,
+  "fetv_fmc": fetv_fmc_Input,
+  "get": getInput,
   "tegna": tegnaInput,
   "paramount": paramountInput,
-  "policynology_the365": policynologyInput,
+  "metv": metvInput,
+  "metvPlus": metvPlusInput,
+  "policynology_bounce": policynology_bounce_Input,
+  "policynology_gritTv": policynology_gritTV_Input,
+  "policynology_outlaw": policynology_outlaw_Input,
+  "policynology_the365": policynology_the365_Input,
   "gray": grayInput,
+  "sinclair": sinclairInput,
   "nexstar": nexstarInput,
+  "smccine": smccineInput,
+  "gsn": gsnInput,
   "callCenter1": callCenter1Input,
   "callCenter2": callCenter2Input
 }
