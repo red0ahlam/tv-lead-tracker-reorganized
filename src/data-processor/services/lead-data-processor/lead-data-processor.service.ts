@@ -19,7 +19,7 @@ export class LeadDataProcessorService {
             return this.formatColumnValue(rows, opts);
         },
         setEmptyANI: (rows) => this.setEmptyANI(rows),
-        dropPolicyHolders: (rows) => this.dropPolicyHolders(rows),
+        dropPolicyHolders: (rows, opts) => this.dropPolicyHolders(rows, opts),
         getRidOfNonNumberAni: (rows) => this.getRidOfNonNumberAni(rows),
         deduplicateANI: (rows, opts) => this.deduplicateANI(rows, opts),
         handleSaveAllLeads: (rows, opts) => this.handleSaveAllLeads(rows, opts),
@@ -115,8 +115,11 @@ export class LeadDataProcessorService {
     }
 
     // get rid of rows that list a lead as a policy holder
-    private dropPolicyHolders(leads: AnyCallCenterLead[]): AnyCallCenterLead[] {
-        return leads.filter((lead) => !((lead.rowData.comments.value ?? '').toLowerCase().includes('policy holder')))
+    private dropPolicyHolders(
+        leads: AnyCallCenterLead[],
+        { commentsColumnKey }: { commentsColumnKey: string }
+    ): AnyCallCenterLead[] {
+        return leads.filter((lead) => !((lead.rowData[commentsColumnKey.trim().toLowerCase()].value ?? '').toLowerCase().includes('policy holder')))
     }
 
     // get rid of dropped call in disposition in call center 1
@@ -124,8 +127,8 @@ export class LeadDataProcessorService {
         return leads.filter((lead) => !((lead.rowData.disposition.value ?? '').trim().toLowerCase() === 'dropped call (sl)'))
     }
 
-    private getRidOfNonNumberAni(leads: AnyCallCenterLead[]): AnyCallCenterLead[]{
-        return leads.filter((lead)=> !Number.isNaN(Number(lead.rowData.ani.value)))
+    private getRidOfNonNumberAni(leads: AnyCallCenterLead[]): AnyCallCenterLead[] {
+        return leads.filter((lead) => !Number.isNaN(Number(lead.rowData.ani.value)) || lead.rowData.ani.value === '' || lead.rowData.ani.value === null || lead.rowData.ani.value === undefined)
     }
 
     // checks for duplicate ANI leads and chooses the one with most information present or many if they have differing information
@@ -147,8 +150,7 @@ export class LeadDataProcessorService {
                 return this.aniDeduplicator.extract(value, aniExcludedKeys, campaignKey)
             }
             return value[0]
-            // return false
-        }).flat().sort((a,b) => a.rowIndex - b.rowIndex)
+        }).flat().sort((a, b) => a.rowIndex - b.rowIndex)
     }
 
     // dos the logic for the save all leads sourcename
